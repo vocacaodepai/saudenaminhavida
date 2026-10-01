@@ -90,7 +90,6 @@ export const article: Article = {
 <li><strong>Bloquear chamadas de números desconhecidos:</strong> procure nas configurações do telefone por silenciar ou bloquear números desconhecidos. Assim a ligação não toca e a pessoa decide depois se retorna.</li>
 <li><strong>Limite no aplicativo do banco:</strong> muitos bancos permitem definir um valor máximo para pix e transferências, e limitar o horário noturno. Peça ao gerente ou procure essa opção no app. Vale conferir o que o banco da sua família oferece.</li>
 <li><strong>Verificação em duas etapas no WhatsApp:</strong> cria um PIN extra que protege a conta mesmo que alguém consiga o código por SMS. Está em Configurações, Conta.</li>
-<li><strong>Atualizar o aparelho e os aplicativos:</strong> as atualizações corrigem falhas de segurança.</li>
 <li><strong>Não instalar aplicativo por pedido de terceiros:</strong> só pela loja oficial e só se a própria pessoa decidiu instalar.</li>
 </ul>
 
@@ -114,19 +113,12 @@ export const article: Article = {
 
 <div class="callout-box callout-warn"><span class="callout-label">Cuidado</span><p>Não mande mais dinheiro "para recuperar" o que foi perdido. Quem promete devolver o valor mediante nova taxa é o mesmo golpista, ou outro, aplicando um segundo golpe.</p></div>
 
-<h2>Uma cena comum e como a regra resolve</h2>
-
-<p>Dona Marta recebe uma mensagem: "Mãe, este é meu número novo, salva aí. Estou com um problema no cartão, pode pagar uma conta para mim?". Pela regra da família, ela não responde nada sobre dinheiro. Liga para o filho no número antigo, ele atende e diz que não mandou nada.</p>
-
-<p>Em um minuto o golpe acaba. Ela bloqueia o número e avisa a família. A palavra-chave nem precisou ser usada, mas ficou de reserva para quando o golpista imitar a voz.</p>
-
 <h2>Erros comuns da família</h2>
 
 <ul>
 <li>Brigar ou ironizar depois do golpe. A pessoa passa a esconder os próximos.</li>
 <li>Tirar o celular de vez. Isola e tira autonomia. É melhor ensinar e configurar.</li>
 <li>Dar a senha do banco do pai para o cuidador ou parente sem combinar regras. Se alguém ajuda com as contas, conversem e dividam a responsabilidade, como no guia <a href="/artigos/como-dividir-o-cuidado-dos-pais-entre-irmaos">como dividir o cuidado dos pais entre irmãos</a>.</li>
-<li>Esquecer da solidão: quem fala pouco com a família atende qualquer ligação. Conversa em dia é proteção.</li>
 </ul>
 
 <h2>Quando pedir ajuda</h2>

@@ -60,7 +60,7 @@ export function Logo({
     <>
       <LogoIcon size={size} mono={mono} id={id} className="shrink-0" />
       <span
-        className={`font-display font-bold tracking-tight ${priority ? "text-[20px]" : "text-[18px]"}`}
+        className={`font-display font-bold tracking-tight ${priority ? "text-[16px] min-[400px]:text-[18px] sm:text-[20px]" : "text-[18px]"}`}
       >
         Saúde na{" "}
         <span className={mono ? "" : "text-gradient"}>Minha Vida</span>

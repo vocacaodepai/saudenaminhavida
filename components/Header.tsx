@@ -6,10 +6,10 @@ import { SearchDialog } from "./SearchDialog";
 import { MobileMenu } from "./MobileMenu";
 
 export const PRIMARY_NAV = [
-  { href: "/noticias", label: "Notícias" },
-  { href: "/artigos", label: "Artigos" },
-  { href: "/reviews", label: "Comparativos" },
   { href: "/categoria/indica", label: "Melhores Produtos" },
+  { href: "/reviews", label: "Comparativos" },
+  { href: "/artigos", label: "Artigos" },
+  { href: "/noticias", label: "Notícias" },
   { href: "/sobre", label: "Sobre" },
 ];
 
@@ -34,11 +34,11 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-surface/85 backdrop-blur-md supports-[backdrop-filter]:bg-surface/75">
-      <div className="mx-auto flex h-16 w-full max-w-7xl items-center gap-4 px-4 sm:px-6 lg:px-8">
-        <Logo priority className="mr-2" />
+      <div className="mx-auto flex h-16 w-full max-w-7xl items-center gap-2 px-4 sm:gap-4 sm:px-6 lg:px-8">
+        <Logo priority className="mr-0 sm:mr-2" />
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Principal">
-          {PRIMARY_NAV.slice(0, 4).map((i) => (
+          {PRIMARY_NAV.slice(0, 3).map((i) => (
             <Link
               key={i.href}
               href={i.href}
@@ -76,20 +76,14 @@ export function Header() {
             </div>
           </div>
 
-          <Link
-            href="/sobre"
-            className="whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground"
-          >
-            Sobre
-          </Link>
         </nav>
 
-        <div className="ml-auto flex items-center gap-2">
+        <div className="ml-auto flex items-center gap-1.5 sm:gap-2">
           <SearchDialog />
-          <ThemeToggle className="hidden lg:inline-flex" />
+          <span className="hidden lg:inline-flex"><ThemeToggle /></span>
           <Link
             href="/categoria/indica"
-            className="hidden h-9 items-center whitespace-nowrap rounded-lg bg-cta px-3.5 text-sm font-semibold text-cta-foreground transition hover:opacity-90 lg:inline-flex"
+            className="hidden h-9 items-center whitespace-nowrap rounded-lg bg-cta px-3.5 text-sm font-semibold text-cta-foreground transition hover:opacity-90 xl:inline-flex"
           >
             Guias de compra
           </Link>
