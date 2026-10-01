@@ -78,7 +78,7 @@ export const article: Article = {
 <p>Quando terminar, peça que ele ligue para você, mande uma mensagem e tire uma foto sem ajuda. Se travar numa etapa, simplifique a tela de novo. Para o cuidado com mensagens e links suspeitos, leia <a href="/artigos/golpes-contra-idosos-como-evitar-no-celular">golpes contra idosos: como evitar no celular</a>.</p>
 
 <h2>Um exemplo do dia a dia</h2>
-<p>A mãe de uma leitora, viúva e morando sozinha, ganhou um smartphone cheio de aplicativos. Em duas semanas, o aparelho ficava no sofá, sem carga. A filha refez a escolha: letra grande, três ícones na tela, o número dela nos favoritos e o toque bem alto. A mãe passou a atender sempre e, depois de um mês, pediu para aprender a mandar áudio. O aparelho não mudou. O que mudou foi a tela.</p>
+<p>Imagine uma mãe viúva, que mora sozinha e ganhou um smartphone cheio de aplicativos. Em duas semanas, o aparelho vive no sofá, sem carga. A filha refaz a escolha: letra grande, três ícones na tela, o número dela nos favoritos e o toque bem alto. A mãe passa a atender sempre e, com o tempo, pede para aprender a mandar áudio. O aparelho não mudou. O que mudou foi a tela.</p>
 <p>Quando a pessoa vive só ou tem risco de queda, o celular pode fazer parte de um plano de segurança maior. Veja o que existe no guia sobre <a href="/artigos/sensor-de-queda-e-botao-de-emergencia-vale-a-pena">sensor de queda e botão de emergência</a>, e a regra de ouro fica a mesma: o aparelho precisa estar ao alcance e carregado.</p>
 
 <h2>Erros comuns na hora de comprar</h2>
