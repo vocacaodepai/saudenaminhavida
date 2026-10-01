@@ -5,7 +5,7 @@ export type CoverOverride = { url: string; width: number; height: number; credit
 
 // Fallback quando não há foto: gradiente escuro com um brilho da marca,
 // coerente com o tema (funciona no claro e no escuro).
-const GLOWS = ["#2457FF", "#7C3AED", "#2457FF", "#0EA5E9", "#7C3AED", "#6366F1"];
+const GLOWS = ["#0F766E", "#D97706", "#0D9488", "#B45309", "#14B8A6", "#F59E0B"];
 
 function FallbackCover({
   seed,
@@ -25,13 +25,13 @@ function FallbackCover({
           <radialGradient id={id} cx="75%" cy="20%" r="80%">
             <stop offset="0%" stopColor={glow} stopOpacity="0.55" />
             <stop offset="60%" stopColor={glow} stopOpacity="0.08" />
-            <stop offset="100%" stopColor="#0B0F17" stopOpacity="0" />
+            <stop offset="100%" stopColor="#0B1715" stopOpacity="0" />
           </radialGradient>
           <pattern id={`${id}-grid`} width="24" height="24" patternUnits="userSpaceOnUse">
             <path d="M24 0H0V24" fill="none" stroke="#ffffff" strokeOpacity="0.06" strokeWidth="1" />
           </pattern>
         </defs>
-        <rect width="400" height="240" fill="#0B0F17" />
+        <rect width="400" height="240" fill="#0B1715" />
         <rect width="400" height="240" fill={`url(#${id}-grid)`} />
         <rect width="400" height="240" fill={`url(#${id})`} />
         {label && (
@@ -40,7 +40,7 @@ function FallbackCover({
             y="212"
             fill="#ffffff"
             fillOpacity="0.55"
-            fontFamily="ui-monospace, SFMono-Regular, Menlo, monospace"
+            fontFamily="ui-sans-serif, system-ui, sans-serif"
             fontSize="11"
             letterSpacing="1.5"
           >

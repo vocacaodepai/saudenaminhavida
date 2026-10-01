@@ -67,7 +67,7 @@ export function Logo({
       </span>
     </>
   );
-  const cls = `inline-flex items-center gap-2 text-foreground ${className}`;
+  const cls = `inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-foreground ${className}`;
   if (href === null) return <span className={cls}>{inner}</span>;
   return (
     <Link href={href} className={cls} aria-label="Saúde na Minha Vida, página inicial">

@@ -6,9 +6,9 @@ import { SearchDialog } from "./SearchDialog";
 import { MobileMenu } from "./MobileMenu";
 
 export const PRIMARY_NAV = [
-  { href: "/noticias", label: "Notícias de saúde" },
+  { href: "/noticias", label: "Notícias" },
   { href: "/artigos", label: "Artigos" },
-  { href: "/reviews", label: "Produtos testados" },
+  { href: "/reviews", label: "Produtos" },
   { href: "/categoria/indica", label: "Indica" },
   { href: "/sobre", label: "Sobre" },
 ];
@@ -42,7 +42,7 @@ export function Header() {
             <Link
               key={i.href}
               href={i.href}
-              className="rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground"
+              className="whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground"
             >
               {i.label}
             </Link>
@@ -78,7 +78,7 @@ export function Header() {
 
           <Link
             href="/sobre"
-            className="rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground"
+            className="whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground"
           >
             Sobre
           </Link>
@@ -89,9 +89,9 @@ export function Header() {
           <ThemeToggle className="hidden lg:inline-flex" />
           <Link
             href="/categoria/urgencias"
-            className="hidden h-9 items-center rounded-lg bg-accent px-3.5 text-sm font-semibold text-accent-foreground transition hover:opacity-90 lg:inline-flex"
+            className="hidden h-9 items-center whitespace-nowrap rounded-lg bg-accent px-3.5 text-sm font-semibold text-accent-foreground transition hover:opacity-90 lg:inline-flex"
           >
-            Preciso de ajuda agora
+            Ajuda agora
           </Link>
           <MobileMenu
             primary={PRIMARY_NAV}

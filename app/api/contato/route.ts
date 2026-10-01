@@ -79,7 +79,7 @@ export async function POST(request: Request) {
       from: `Saúde na Minha Vida <${author.email}>`,
       to: [author.email],
       replyTo: safeEmail,
-      subject: `[Saúde na Minha Vida] ${safeSubject} — ${safeName}`,
+      subject: `[Saúde na Minha Vida] ${safeSubject} | ${safeName}`,
       text: `De: ${safeName} <${safeEmail}>\nAssunto: ${safeSubject}\n\n${safeMessage}`,
       html: `
         <p><strong>De:</strong> ${escapeHtml(safeName)} &lt;${escapeHtml(safeEmail)}&gt;</p>
