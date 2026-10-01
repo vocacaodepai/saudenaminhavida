@@ -8,7 +8,7 @@ export const article: Article = {
     "Idoso com demência recusa banho? Entenda os motivos da resistência e veja passos práticos para higiene com calma, segurança e respeito, sem brigas.",
   metaDescription:
     "Idoso com demência recusa banho? Entenda os motivos da resistência e veja passos práticos para higiene com calma, segurança e respeito, sem brigas.",
-  category: "demencia",
+  category: "saude",
   date: "2026-10-01",
   readTime: 7,
   imageQuery: "caregiver helping elderly bathroom",
@@ -89,7 +89,7 @@ export const article: Article = {
 <h2>Quando procurar o médico</h2>
 <p>Procure o geriatra, neurologista ou psiquiatra se a recusa começou de repente, se a pessoa reage com agressividade, se parece sentir dor ao se mexer, se há feridas, assaduras, cheiro forte de urina ou sinais de infecção. Mudança brusca de comportamento pode ter causa tratável, como infecção urinária, dor ou efeito de remédio. Se a confusão veio de uma hora para outra, leia <a href="/artigos/idoso-confuso-de-repente-causas-e-o-que-fazer">idoso confuso de repente: causas e o que fazer</a>.</p>
 <p>Se a pessoa também come pouco e perde peso, veja <a href="/artigos/idoso-sem-apetite-o-que-fazer">idoso sem apetite: o que fazer</a>. A <a href="https://abraz.org.br/" rel="noopener noreferrer" target="_blank">Associação Brasileira de Alzheimer (Abraz)</a> oferece orientação e grupos de apoio para familiares.</p>
-<p>Quem cuida precisa de descanso. Se o banho virou fonte de choro e culpa, converse com a família sobre dividir tarefas (veja <a href="/artigos/como-dividir-o-cuidado-dos-pais-entre-irmaos">como dividir o cuidado dos pais entre irmãos</a>) e leia <a href="/artigos/burnout-do-cuidador-sinais-e-o-que-fazer">burnout do cuidador: sinais e o que fazer</a>. Para mais orientação prática, a categoria <a href="/categoria/demencia">Alzheimer e Demência</a> está à sua disposição.</p>`,
+<p>Quem cuida precisa de descanso. Se o banho virou fonte de choro e culpa, converse com a família sobre dividir tarefas (veja <a href="/artigos/como-dividir-o-cuidado-dos-pais-entre-irmaos">como dividir o cuidado dos pais entre irmãos</a>) e leia <a href="/artigos/burnout-do-cuidador-sinais-e-o-que-fazer">burnout do cuidador: sinais e o que fazer</a>. Para mais orientação prática, a categoria <a href="/categoria/saude">Alzheimer e Demência</a> está à sua disposição.</p>`,
   faq: [
     {
       question: "Por que o idoso com demência não quer tomar banho?",

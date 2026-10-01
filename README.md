@@ -1,10 +1,10 @@
 # Saúde na Minha Vida
 
-Blog brasileiro para filhos e cuidadores de pessoas idosas (www.saudenaminhavida.com.br):
-urgências e quedas, Alzheimer e demência, alimentação 60+, rotina e casa, direitos e
-decisões, e o cuidado com quem cuida. Artigos, notícias e análises de produtos em português
-claro, baseados em fontes oficiais. Estrutura técnica replicada do Portal da AI, preparada
-para o Google AdSense.
+Blog brasileiro para filhos e cuidadores de pessoas idosas (www.saudenaminhavida.com.br).
+Foco: guias de compra de produtos para cuidar em casa (afiliado), casa e rotina, tecnologia e
+atividades para idosos, direitos e burocracia, dia a dia do cuidador e guias de saúde de apoio
+com fontes oficiais. Estrutura técnica replicada do Portal da AI, preparada para o Google
+AdSense.
 
 ## Stack
 

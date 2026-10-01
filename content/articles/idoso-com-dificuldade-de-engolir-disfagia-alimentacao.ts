@@ -8,7 +8,7 @@ export const article: Article = {
     "Idoso com dificuldade de engolir precisa de avaliação. Entenda a disfagia, os sinais de alerta, os cuidados na hora de comer e quando chamar ajuda.",
   metaDescription:
     "Idoso com dificuldade de engolir precisa de avaliação. Entenda a disfagia, os sinais de alerta, os cuidados na hora de comer e quando chamar ajuda.",
-  category: "alimentacao",
+  category: "saude",
   date: "2026-10-01",
   readTime: 8,
   imageQuery: "elderly man eating caregiver",

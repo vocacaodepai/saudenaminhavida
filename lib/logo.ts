@@ -7,7 +7,7 @@ export const LOGO_VIEWBOX = "0 0 32 32";
 export const LOGO_HEART =
   "M16 27.2C8.4 21.6 4.2 17.4 4.2 12.3 4.2 8.9 6.8 6.4 10 6.4c2.3 0 4.4 1.2 6 3.4 1.6-2.2 3.7-3.4 6-3.4 3.2 0 5.8 2.5 5.8 5.9 0 5.1-4.2 9.3-11.8 14.9Z";
 export const LOGO_PLUS = "M16 12.2V19M12.6 15.6H19.4";
-export const LOGO_GRADIENT = { from: "#0F766E", to: "#D97706" };
+export const LOGO_GRADIENT = { from: "#1B4B8A", to: "#C2410C" };
 
 /**
  * SVG da marca como string (para favicon, OG image e arquivos em public/).
@@ -15,7 +15,7 @@ export const LOGO_GRADIENT = { from: "#0F766E", to: "#D97706" };
  */
 export function logoIconSvg({
   size = 32,
-  color = "#10201E",
+  color = "#14213D",
   mono = false,
   background,
 }: {

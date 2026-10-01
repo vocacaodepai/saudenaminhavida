@@ -14,46 +14,46 @@ export type QuizQuestion = {
 
 export const categories = [
   {
-    slug: "urgencias",
-    label: "Urgências e Quedas",
+    slug: "indica",
+    label: "Melhores Produtos",
     description:
-      "O que fazer quando o idoso cai, engasga, fica confuso de repente ou passa mal, e quando ligar para o SAMU (192).",
-  },
-  {
-    slug: "demencia",
-    label: "Alzheimer e Demência",
-    description:
-      "Sinais, diagnóstico e convivência no dia a dia com quem tem Alzheimer ou outra demência, com orientação prática para a família.",
-  },
-  {
-    slug: "alimentacao",
-    label: "Alimentação 60+",
-    description:
-      "Nutrição na terceira idade: falta de apetite, proteína, hidratação, dificuldade de mastigar e engasgos, diabetes e pressão alta.",
+      "Guias de compra e comparativos de produtos que facilitam o cuidado em casa: cadeira de banho, barra de apoio, andador, organizador de remédio, sensor de queda e mais.",
   },
   {
     slug: "rotina",
-    label: "Rotina e Casa",
+    label: "Casa e Rotina",
     description:
-      "Como organizar remédios, adaptar a casa, cuidar do banho, do sono e da mobilidade com segurança e sem sofrimento.",
+      "Como adaptar a casa, organizar remédios, banho, sono e mobilidade com segurança, de um jeito simples e barato.",
+  },
+  {
+    slug: "tecnologia",
+    label: "Tecnologia para Idosos",
+    description:
+      "Celular, WhatsApp, videochamada e como não cair em golpes: tutoriais pacientes e guias de compra para quem ensina e para quem aprende.",
+  },
+  {
+    slug: "atividades",
+    label: "Atividades e Lazer",
+    description:
+      "Jogos, música, artesanato e conversa: ideias práticas para ocupar o dia da pessoa idosa com prazer e convivência.",
   },
   {
     slug: "direitos",
-    label: "Direitos e Decisões",
+    label: "Direitos e Burocracia",
     description:
-      "Cuidador, clínica ou casa de repouso, custos, BPC, aposentadoria, plano de saúde 60+ e como dividir o cuidado na família.",
+      "Cuidador, clínica ou casa de repouso, BPC, aposentadoria, plano de saúde 60+ e como dividir o cuidado na família.",
   },
   {
     slug: "cuidador",
-    label: "Cuidar de Quem Cuida",
+    label: "Dia a Dia do Cuidador",
     description:
-      "Cansaço, culpa, burnout e limites: como pedir ajuda e cuidar do seu pai ou da sua mãe sem abandonar a sua própria vida.",
+      "Cansaço, culpa, organização e limites: como pedir ajuda e cuidar do seu pai ou da sua mãe sem abandonar a sua própria vida.",
   },
   {
-    slug: "indica",
-    label: "Indica",
+    slug: "saude",
+    label: "Saúde e Urgências",
     description:
-      "Produtos que facilitam o cuidado em casa (barras de apoio, cadeira de banho, organizadores de remédio), comparados com nota por critério e link para comprar.",
+      "Guias de apoio sobre quedas, engasgo, confusão, Alzheimer e alimentação, baseados em fontes oficiais. Informam e orientam, não substituem o médico.",
   },
 ] as const;
 

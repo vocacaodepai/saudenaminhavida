@@ -126,8 +126,8 @@ export default function PoliticaEditorialPage() {
 
       <h2 id="reviews">8. Como os produtos são analisados</h2>
       <p>
-        As análises de produto da categoria <Link href="/categoria/indica">Indica</Link> e da página{" "}
-        <Link href="/reviews">produtos testados</Link> seguem critérios públicos, cada um com nota de
+        As análises de produto da categoria <Link href="/categoria/indica">Melhores Produtos</Link> e da página{" "}
+        <Link href="/reviews">comparativos</Link> seguem critérios públicos, cada um com nota de
         0 a 10: segurança, facilidade de uso, durabilidade, preço e avaliações reais de quem já
         comprou. A nota final é a média desses critérios, exibida junto com prós, contras, para quem
         serve e o link do produto.
@@ -161,7 +161,7 @@ export default function PoliticaEditorialPage() {
       <h2 id="independencia">11. Independência editorial</h2>
       <p>
         O site se sustenta com anúncios do Google AdSense e com links de afiliado da Amazon, só na
-        categoria Indica. Anunciante não escolhe pauta, não lê texto antes da publicação e não recebe
+        categoria Melhores Produtos. Anunciante não escolhe pauta, não lê texto antes da publicação e não recebe
         nota ou menção em troca de investimento. Como compromisso editorial, não colocamos anúncio
         dentro de conteúdo de urgência. As regras completas estão em{" "}
         <Link href="/publicidade-e-afiliados">publicidade e afiliados</Link>.

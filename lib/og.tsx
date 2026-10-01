@@ -17,8 +17,8 @@ function LogoMark({ size = 56 }: { size?: number }) {
     <svg width={size} height={size} viewBox="0 0 32 32">
       <defs>
         <linearGradient id="og-g" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#5EEAD4" />
-          <stop offset="1" stopColor="#FBBF24" />
+          <stop offset="0" stopColor="#8DB8F5" />
+          <stop offset="1" stopColor="#FB923C" />
         </linearGradient>
       </defs>
       <path d={LOGO_HEART} stroke="#FFFFFF" strokeWidth="2.6" strokeLinejoin="round" fill="none" />
@@ -57,10 +57,10 @@ export async function renderOgImage({
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "56px 64px",
-          backgroundColor: "#0B1715",
+          backgroundColor: "#0F1B2D",
           backgroundImage:
-            "radial-gradient(circle at 85% 15%, rgba(15,118,110,0.6) 0%, rgba(15,118,110,0) 45%), radial-gradient(circle at 15% 95%, rgba(217,119,6,0.4) 0%, rgba(217,119,6,0) 40%)",
-          color: "#E6F2F0",
+            "radial-gradient(circle at 85% 15%, rgba(47,111,208,0.6) 0%, rgba(47,111,208,0) 45%), radial-gradient(circle at 15% 95%, rgba(249,115,22,0.4) 0%, rgba(249,115,22,0) 40%)",
+          color: "#EEF2F8",
           fontFamily: "Space Grotesk",
         }}
       >
@@ -78,8 +78,8 @@ export async function renderOgImage({
                 fontSize: 20,
                 letterSpacing: 3,
                 textTransform: "uppercase",
-                color: "#5EEAD4",
-                border: "1px solid rgba(94,234,212,0.5)",
+                color: "#8DB8F5",
+                border: "1px solid rgba(141,184,245,0.5)",
                 borderRadius: 8,
                 padding: "8px 14px",
               }}
@@ -110,7 +110,7 @@ export async function renderOgImage({
             justifyContent: "space-between",
             fontFamily: "JetBrains Mono",
             fontSize: 20,
-            color: "#9DB5B0",
+            color: "#AAB6CB",
           }}
         >
           <span>{footer}</span>

@@ -22,7 +22,7 @@ import {
 import { news, sortedNews } from "@/lib/news";
 import { absoluteUrl, metaDescription, safeJsonLd, alternatesFor } from "@/lib/seo";
 
-const HOME_TITLE = "Saúde na Minha Vida: cuidar de idosos com informação clara";
+const HOME_TITLE = "Saúde na Minha Vida: produtos e dicas para cuidar de idosos em casa";
 const HOME_DESCRIPTION = metaDescription(site.description);
 
 export const metadata: Metadata = {
@@ -46,17 +46,18 @@ export const metadata: Metadata = {
 
 /** Títulos curtos das seções por categoria (a description completa é longa demais para um título). */
 const CATEGORY_TITLES: Record<Category, string> = {
-  urgencias: "Quando a situação não pode esperar",
-  demencia: "Viver com Alzheimer e demência",
-  alimentacao: "O que e como o idoso deve comer",
-  rotina: "Uma rotina segura em casa",
-  direitos: "Decisões e direitos da família",
+  indica: "O que comprar para cuidar em casa",
+  rotina: "Uma casa e uma rotina seguras",
+  tecnologia: "Celular, WhatsApp e golpes",
+  atividades: "Ideias para o dia a dia",
+  direitos: "Direitos, custos e decisões",
   cuidador: "Cuidar de quem cuida",
-  indica: "Indica: o que vale comprar",
+  saude: "Saúde e urgências: guias de apoio",
 };
 
 /** Quantos artigos por bloco de categoria e por seção de reviews. */
 const PER_SECTION = 3;
+const PRODUCT_SECTION = 6;
 
 /** Mesma seleção que a FeaturedList faz, para o hero e a sidebar não repetirem itens. */
 function featuredSlugs(exclude: string[], limit = 5): string[] {
@@ -101,7 +102,7 @@ export default function Home() {
 
   const aiIndicaPicks = getArticlesByCategory("indica")
     .filter((a) => !shown.has(a.slug))
-    .slice(0, PER_SECTION);
+    .slice(0, PRODUCT_SECTION);
   for (const p of aiIndicaPicks) shown.add(p.slug);
 
   const categoryBlocks = categories
@@ -186,32 +187,32 @@ export default function Home() {
       {/* Grid principal: blocos editoriais + sidebar */}
       <Container className="mt-12 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-12">
         <div className="min-w-0 space-y-12">
-          {reviews.length > 0 && (
-            <section aria-label="Produtos testados">
+          {aiIndicaPicks.length > 0 && (
+            <section aria-label="Melhores produtos">
               <SectionHeading
-                label="Analisamos"
-                title="Produtos testados"
-                href="/reviews"
-                linkText="Todos os produtos"
+                label="Melhores produtos"
+                title="O que comprar para cuidar em casa"
+                href="/categoria/indica"
+                linkText="Ver todos os guias de compra"
               />
               <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
-                {reviews.map((a) => (
+                {aiIndicaPicks.map((a) => (
                   <ArticleCard key={a.slug} article={a} />
                 ))}
               </div>
             </section>
           )}
 
-          {aiIndicaPicks.length > 0 && (
-            <section aria-label="Indica">
+          {reviews.length > 0 && (
+            <section aria-label="Comparativos">
               <SectionHeading
-                label="Indica"
-                title="Produtos que facilitam o cuidado em casa"
-                href="/categoria/indica"
-                linkText="Ver todas as indicações"
+                label="Analisamos"
+                title="Comparativos de produtos"
+                href="/reviews"
+                linkText="Todos os comparativos"
               />
               <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
-                {aiIndicaPicks.map((a) => (
+                {reviews.map((a) => (
                   <ArticleCard key={a.slug} article={a} />
                 ))}
               </div>
@@ -233,17 +234,17 @@ export default function Home() {
             <div className="lg:col-span-8">
               <p className="label-mono text-ink-foreground/60">{site.name}</p>
               <h2 className="mt-3 font-display text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl">
-                Você não precisa cuidar sozinho
+                Cuidar em casa fica mais leve com o produto certo
               </h2>
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-foreground/80 sm:text-lg">
                 {site.description}
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link
-                  href="/categoria/urgencias"
-                  className="inline-flex h-11 items-center rounded-lg bg-accent px-5 text-sm font-semibold text-accent-foreground transition hover:opacity-90"
+                  href="/categoria/indica"
+                  className="inline-flex h-11 items-center rounded-lg bg-cta px-5 text-sm font-semibold text-cta-foreground transition hover:opacity-90"
                 >
-                  Preciso de ajuda agora
+                  Ver guias de compra
                 </Link>
                 <Link
                   href="/artigos"

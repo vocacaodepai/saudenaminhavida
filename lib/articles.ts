@@ -14,9 +14,9 @@ export { categories } from "@/lib/types";
 
 export const site = {
   name: "Saúde na Minha Vida",
-  tagline: "Cuidar de quem você ama, com informação clara e sem culpa",
+  tagline: "Produtos e dicas para cuidar de idosos em casa, sem culpa",
   description:
-    "O Saúde na Minha Vida orienta filhos e cuidadores de idosos: o que fazer em uma queda, como lidar com o Alzheimer, o que e como o idoso deve comer, como organizar a rotina e cuidar de si mesmo no caminho.",
+    "O Saúde na Minha Vida ajuda filhos e cuidadores de idosos a escolher os produtos certos, adaptar a casa, usar a tecnologia sem medo de golpe, ocupar o dia da pessoa idosa e cuidar de si no caminho.",
   url: "https://www.saudenaminhavida.com.br",
   locale: "pt_BR",
   /** Ano de fundação, usado no rodapé e no schema Organization. */

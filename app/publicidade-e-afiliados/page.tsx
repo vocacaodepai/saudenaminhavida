@@ -7,7 +7,7 @@ import { author } from "@/lib/author";
 const PATH = "/publicidade-e-afiliados";
 const TITLE = "Publicidade e afiliados";
 const DESCRIPTION =
-  "Como o Saúde na Minha Vida se sustenta: anúncios do Google AdSense e links de afiliado da Amazon na categoria Indica, sempre sinalizados e sem mudar nota nem opinião.";
+  "Como o Saúde na Minha Vida se sustenta: anúncios do Google AdSense e links de afiliado da Amazon na categoria Melhores Produtos, sempre sinalizados e sem mudar nota nem opinião.";
 
 function ExternalLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
@@ -44,7 +44,7 @@ export default function PublicidadeEAfiliadosPage() {
         </li>
         <li>
           <strong>Programa de Associados da Amazon</strong>: nas análises de produto da categoria{" "}
-          <Link href="/categoria/indica">Indica</Link>, o link para comprar o produto na Amazon é um
+          <Link href="/categoria/indica">Melhores Produtos</Link>, o link para comprar o produto na Amazon é um
           link de afiliado e pode gerar comissão para o site, sem custo adicional para você. Como
           Associado da Amazon, o {site.name} ganha com compras qualificadas.
         </li>
@@ -93,7 +93,7 @@ export default function PublicidadeEAfiliadosPage() {
           sempre aparece atualizado na própria página do produto.
         </li>
         <li>
-          Um link de afiliado só aparece na categoria Indica. Nunca em notícia, em conteúdo de urgência, em artigo sobre saúde ou fora do contexto de uma análise de produto.
+          Um link de afiliado só aparece na categoria Melhores Produtos. Nunca em notícia, em conteúdo de urgência, em artigo sobre saúde ou fora do contexto de uma análise de produto.
         </li>
         <li>
           As imagens usadas nas análises de produto são fotos oficiais divulgadas pelo próprio

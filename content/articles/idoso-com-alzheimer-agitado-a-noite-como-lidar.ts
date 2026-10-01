@@ -8,7 +8,7 @@ export const article: Article = {
     "Idoso com Alzheimer agitado à noite: entenda o que pode causar a agitação no fim do dia e veja medidas práticas para acalmar e quando chamar o médico.",
   metaDescription:
     "Idoso com Alzheimer agitado à noite: entenda o que pode causar a agitação no fim do dia e veja medidas práticas para acalmar e quando chamar o médico.",
-  category: "demencia",
+  category: "saude",
   date: "2026-10-01",
   readTime: 7,
   imageQuery: "elderly man window evening",
@@ -100,7 +100,7 @@ export const article: Article = {
 <h2>Quando procurar o médico</h2>
 <p>Marque consulta com o geriatra, neurologista ou psiquiatra se a agitação aumentou, se o sono está muito prejudicado por semanas, se há alucinações (ver pessoas que não estão lá), ideias de perseguição ou agressividade. O médico avalia causas tratáveis e decide se algum remédio é necessário, na dose certa e acompanhada. Medidas sem remédio são sempre a primeira linha, e o tratamento medicamentoso deve ser indicado e revisado por quem acompanha o caso.</p>
 <p>Fale também sobre você. Noites mal dormidas por muito tempo adoecem o cuidador. Se você se reconhece no cansaço, leia <a href="/artigos/burnout-do-cuidador-sinais-e-o-que-fazer">burnout do cuidador: sinais e o que fazer</a>.</p>
-<p>O <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/alzheimer" rel="noopener noreferrer" target="_blank">Ministério da Saúde</a> reúne informações oficiais sobre a doença. Se ainda está no começo da jornada e a dúvida é se é mesmo Alzheimer, veja <a href="/artigos/primeiros-sinais-de-alzheimer-esquecimento-normal-ou-demencia">primeiros sinais de Alzheimer: esquecimento normal ou demência</a>. Para outros temas do dia a dia, a categoria <a href="/categoria/demencia">Alzheimer e Demência</a> reúne guias práticos para a família.</p>`,
+<p>O <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/alzheimer" rel="noopener noreferrer" target="_blank">Ministério da Saúde</a> reúne informações oficiais sobre a doença. Se ainda está no começo da jornada e a dúvida é se é mesmo Alzheimer, veja <a href="/artigos/primeiros-sinais-de-alzheimer-esquecimento-normal-ou-demencia">primeiros sinais de Alzheimer: esquecimento normal ou demência</a>. Para outros temas do dia a dia, a categoria <a href="/categoria/saude">Alzheimer e Demência</a> reúne guias práticos para a família.</p>`,
   faq: [
     {
       question: "Por que o idoso com Alzheimer fica mais agitado à noite?",

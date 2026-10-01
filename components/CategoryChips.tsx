@@ -13,7 +13,7 @@ export function CategoryChips({
   const items = [
     { href: "/artigos", label: "Todos", key: "todos" },
     ...categories.map((c) => ({ href: `/categoria/${c.slug}`, label: c.label, key: c.slug })),
-    { href: "/reviews", label: "Produtos testados", key: "reviews" },
+    { href: "/reviews", label: "Comparativos", key: "reviews" },
     { href: "/noticias", label: "Notícias", key: "noticias" },
   ];
   return (

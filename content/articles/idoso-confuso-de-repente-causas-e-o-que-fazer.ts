@@ -8,7 +8,7 @@ export const article: Article = {
     "Idoso confuso de repente não é normal da idade. Veja os sinais de alerta, as causas mais comuns, o que fazer agora e quando ligar para o SAMU (192).",
   metaDescription:
     "Idoso confuso de repente não é normal da idade. Veja os sinais de alerta, as causas mais comuns, o que fazer agora e quando ligar para o SAMU (192).",
-  category: "urgencias",
+  category: "saude",
   date: "2026-10-01",
   readTime: 7,
   imageQuery: "elderly woman confused caregiver hand",

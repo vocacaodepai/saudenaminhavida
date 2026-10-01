@@ -8,7 +8,7 @@ export const article: Article = {
     "Primeiros sinais de Alzheimer: veja como diferenciar o esquecimento comum da idade de uma possível demência e quando levar seu pai ou sua mãe ao médico.",
   metaDescription:
     "Primeiros sinais de Alzheimer: veja como diferenciar o esquecimento comum da idade de uma possível demência e quando levar seu pai ou sua mãe ao médico.",
-  category: "demencia",
+  category: "saude",
   date: "2026-10-01",
   readTime: 7,
   imageQuery: "elderly woman hands caregiver",
@@ -111,7 +111,7 @@ export const article: Article = {
 <h2>Quando procurar o médico</h2>
 <p>Marque consulta se você notar esquecimentos que se repetem, atrapalham a rotina ou pioram com o tempo, mesmo que sejam leves. Procure atendimento sem demora se aparecerem agitação intensa, ideias de perseguição, perda de peso sem explicação, ou quedas frequentes (veja <a href="/artigos/idoso-caiu-o-que-fazer-e-quando-ir-ao-hospital">idoso caiu: o que fazer e quando ir ao hospital</a>). E ligue para o SAMU (192) diante de confusão súbita ou sinais de AVC.</p>
 <p>Se o diagnóstico de demência vier, você não estará sozinho. Há formas de lidar com os sintomas do dia a dia, como a agitação no fim da tarde, tratada em <a href="/artigos/idoso-com-alzheimer-agitado-a-noite-como-lidar">idoso com Alzheimer agitado à noite: como lidar</a>. A Abraz oferece orientação e grupos de apoio a familiares, e cuidar de quem cuida também faz parte do tratamento.</p>
-<p>Continue explorando a categoria <a href="/categoria/demencia">Alzheimer e Demência</a> para passos práticos em cada fase.</p>`,
+<p>Continue explorando a categoria <a href="/categoria/saude">Alzheimer e Demência</a> para passos práticos em cada fase.</p>`,
   faq: [
     {
       question: "Esquecimento é sinal de Alzheimer?",

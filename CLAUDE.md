@@ -1,9 +1,13 @@
 ## Categorização editorial
 
-Categorias (`lib/types.ts`): `urgencias`, `demencia`, `alimentacao`, `rotina`, `direitos`,
-`cuidador` e `indica`.
+Categorias (`lib/types.ts`): `indica` (Melhores Produtos), `rotina`, `tecnologia`, `atividades`,
+`direitos`, `cuidador` e `saude`.
 
-- **Indica** (`category: "indica"`): análise de produto que facilita o cuidado em casa
+O foco do blog é PRODUTOS e rotina em casa (monetização por afiliado), tecnologia e atividades
+para idosos. Os guias de `saude` (urgências, Alzheimer, alimentação) são vitrine de confiança,
+com fontes oficiais e aviso médico; só publique novos se houver fonte oficial clara.
+
+- **Melhores Produtos** (`category: "indica"`): guia de compra ("como escolher") ou análise de produto que facilita o cuidado em casa
   (barra de apoio, cadeira de banho, organizador de remédio, sensor de queda), sempre com
   link de afiliado Amazon, `kind: "review"` e nota por critério.
 - As demais são guias informativos, sem link de compra.

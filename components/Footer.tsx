@@ -57,7 +57,7 @@ export function Footer() {
             </li>
             <li>
               <Link href="/reviews" className="text-foreground/90 transition hover:text-accent">
-                Produtos testados
+                Comparativos de produtos
               </Link>
             </li>
             <li>

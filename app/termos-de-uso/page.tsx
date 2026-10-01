@@ -90,7 +90,7 @@ export default function TermosDeUsoPage() {
       <h2 id="publicidade-e-afiliados">5. Publicidade e links de afiliado</h2>
       <p>
         O site pode exibir anúncios de terceiros, em especial do Google AdSense, identificados como
-        publicidade. Também pode conter links de afiliado da Amazon na categoria Indica: se você
+        publicidade. Também pode conter links de afiliado da Amazon na categoria Melhores Produtos: se você
         comprar por um deles, o site pode receber uma comissão, sem custo adicional para você. Esses
         links são sinalizados na página e não influenciam nota nem opinião. As regras completas estão em{" "}
         <Link href="/publicidade-e-afiliados">publicidade e afiliados</Link>. Os anunciantes são

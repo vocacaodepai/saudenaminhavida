@@ -8,8 +8,8 @@ import { MobileMenu } from "./MobileMenu";
 export const PRIMARY_NAV = [
   { href: "/noticias", label: "Notícias" },
   { href: "/artigos", label: "Artigos" },
-  { href: "/reviews", label: "Produtos" },
-  { href: "/categoria/indica", label: "Indica" },
+  { href: "/reviews", label: "Comparativos" },
+  { href: "/categoria/indica", label: "Melhores Produtos" },
   { href: "/sobre", label: "Sobre" },
 ];
 
@@ -88,10 +88,10 @@ export function Header() {
           <SearchDialog />
           <ThemeToggle className="hidden lg:inline-flex" />
           <Link
-            href="/categoria/urgencias"
-            className="hidden h-9 items-center whitespace-nowrap rounded-lg bg-accent px-3.5 text-sm font-semibold text-accent-foreground transition hover:opacity-90 lg:inline-flex"
+            href="/categoria/indica"
+            className="hidden h-9 items-center whitespace-nowrap rounded-lg bg-cta px-3.5 text-sm font-semibold text-cta-foreground transition hover:opacity-90 lg:inline-flex"
           >
-            Ajuda agora
+            Guias de compra
           </Link>
           <MobileMenu
             primary={PRIMARY_NAV}

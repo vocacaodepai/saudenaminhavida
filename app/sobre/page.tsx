@@ -7,7 +7,7 @@ import { author } from "@/lib/author";
 const PATH = "/sobre";
 const TITLE = "Sobre o Saúde na Minha Vida";
 const DESCRIPTION =
-  "O Saúde na Minha Vida é um blog independente que orienta filhos e cuidadores de pessoas idosas: urgências e quedas, Alzheimer, alimentação, rotina, direitos e o cuidado com quem cuida.";
+  "O Saúde na Minha Vida é um blog independente para filhos e cuidadores de pessoas idosas: guias de compra de produtos, casa e rotina, tecnologia, atividades, direitos e o cuidado com quem cuida.";
 
 export const metadata: Metadata = institutionalMetadata({
   title: TITLE,
@@ -26,16 +26,17 @@ export default function SobrePage() {
       <h2 id="o-que-e">O que é o Saúde na Minha Vida</h2>
       <p>
         O {site.name} é escrito pela <Link href={author.url}>{author.name}</Link> para quem cuida de
-        uma pessoa idosa (60+) e, de uma hora para outra, precisa decidir o que fazer. A queda no
-        meio da noite, o esquecimento que preocupa, a dúvida sobre o que o pai pode comer, a conta
-        que não fecha, o cansaço de quem cuida sozinho. Aqui a proposta é explicar com calma, em
+        uma pessoa idosa (60+) e, de uma hora para outra, precisa decidir o que fazer. Qual cadeira de banho comprar, como
+        deixar a casa segura, como ensinar o pai a usar o WhatsApp sem cair em golpe, a conta que
+        não fecha, o cansaço de quem cuida sozinho. Aqui a proposta é explicar com calma, em
         linguagem simples, e dizer com clareza quando é hora de chamar um profissional.
       </p>
       <p>
         O conteúdo se divide em três frentes: <Link href="/artigos">artigos</Link> (guias e passo a
         passo), <Link href="/noticias">notícias</Link> (o que mudou em regras, benefícios e saúde,
-        explicado para a família) e <Link href="/reviews">produtos testados</Link>, com análises que
-        seguem critérios públicos e nota de 0 a 10.
+        explicado para a família) e <Link href="/reviews">comparativos de produtos</Link>, com
+        critérios públicos e nota de 0 a 10. A prioridade do blog são os guias de compra e o dia a
+        dia em casa; os guias de saúde são textos de apoio com fontes oficiais.
       </p>
 
       <h2 id="para-quem">Para quem escrevemos</h2>
@@ -85,7 +86,7 @@ export default function SobrePage() {
       <p>
         O acesso é gratuito. A receita vem (ou virá) de anúncios do Google AdSense e de links de
         afiliado da Amazon, que aparecem somente na categoria{" "}
-        <Link href="/categoria/indica">Indica</Link>, sempre sinalizados. Anúncio e afiliado não
+        <Link href="/categoria/indica">Melhores Produtos</Link>, sempre sinalizados. Anúncio e afiliado não
         interferem em pauta, nota ou opinião. Explicamos tudo em{" "}
         <Link href="/publicidade-e-afiliados">publicidade e afiliados</Link>.
       </p>

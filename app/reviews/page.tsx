@@ -13,7 +13,7 @@ import { getArticlesByCategory, getReviews, site } from "@/lib/articles";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 
 const PATH = "/reviews";
-const TITLE = "Produtos testados para cuidar em casa";
+const TITLE = "Comparativos e análises de produtos";
 const DESCRIPTION =
   "Análises independentes de produtos para o cuidado de idosos em casa, com nota de 0 a 10 por critérios públicos: segurança, facilidade, durabilidade, preço e avaliações reais.";
 
@@ -21,7 +21,7 @@ export const metadata: Metadata = listingMetadata({ title: TITLE, description: D
 
 export default function ReviewsPage() {
   const reviews = getReviews();
-  const meanwhile = reviews.length === 0 ? getArticlesByCategory("rotina").slice(0, 6) : [];
+  const meanwhile = reviews.length === 0 ? getArticlesByCategory("indica").slice(0, 6) : [];
 
   const collection = {
     "@context": "https://schema.org",
@@ -50,7 +50,7 @@ export default function ReviewsPage() {
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Início", path: "/" },
-          { name: "Produtos testados", path: PATH },
+          { name: "Comparativos", path: PATH },
         ])}
       />
       <Container className="py-10 sm:py-14">
@@ -86,7 +86,7 @@ export default function ReviewsPage() {
                     <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-foreground/80 sm:text-base">
                       Cada análise confere ficha técnica, normas de segurança e avaliações reais antes de
                       ganhar nota. Quando a primeira for publicada, ela aparece aqui e no feed do site. Até
-                      lá, os guias de rotina e casa abaixo já ajudam a escolher o que adaptar.
+                      lá, os guias de compra abaixo já ajudam a escolher o que comprar.
                     </p>
                     <Link
                       href="/feed.xml"
@@ -102,11 +102,11 @@ export default function ReviewsPage() {
                       <div>
                         <p className="label-mono text-accent">Enquanto isso</p>
                         <h2 id="enquanto-isso" className="mt-1 font-display text-xl font-bold tracking-tight sm:text-2xl">
-                          Guias de rotina e casa
+                          Guias de compra
                         </h2>
                       </div>
                       <Link
-                        href="/categoria/rotina"
+                        href="/categoria/indica"
                         className="shrink-0 font-mono text-xs font-medium text-muted transition hover:text-accent"
                       >
                         Ver todos →

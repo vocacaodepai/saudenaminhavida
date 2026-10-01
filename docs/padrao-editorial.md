@@ -56,7 +56,7 @@ export const article: Article = {
   seoTitle: "Versão curta para o Google (até 60 caracteres)",
   excerpt: "Resumo com a keyword e um verbo de ação (140 a 158 caracteres).",
   metaDescription: "Pode ser igual ao excerpt (140 a 158 caracteres).",
-  category: "urgencias", // urgencias | demencia | alimentacao | rotina | direitos | cuidador | indica
+  category: "saude", // indica | rotina | tecnologia | atividades | direitos | cuidador | saude
   date: "AAAA-MM-DD", // hoje em America/Sao_Paulo, nunca futura
   readTime: 7,
   imageQuery: "elderly woman hands caregiver", // 3 a 4 palavras concretas em inglês (Pexels/Pixabay)

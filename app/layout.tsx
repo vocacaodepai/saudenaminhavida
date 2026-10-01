@@ -45,14 +45,14 @@ export const metadata: Metadata = {
   category: "health",
   keywords: [
     "cuidador de idosos",
-    "saúde do idoso",
+    "produtos para idosos",
+    "cadeira de banho para idoso",
+    "barra de apoio",
+    "celular para idoso",
+    "golpes contra idosos",
+    "atividades para idosos",
     "terceira idade",
-    "Alzheimer",
-    "demência",
-    "queda em idosos",
-    "alimentação para idosos",
-    "burnout do cuidador",
-    "casa de repouso",
+    "casa adaptada para idoso",
     "cuidar dos pais",
   ],
   openGraph: {
@@ -89,8 +89,8 @@ export const viewport: Viewport = {
   initialScale: 1,
   colorScheme: "light dark",
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f7faf8" },
-    { media: "(prefers-color-scheme: dark)", color: "#0b1715" },
+    { media: "(prefers-color-scheme: light)", color: "#fbf8f2" },
+    { media: "(prefers-color-scheme: dark)", color: "#0f1b2d" },
   ],
 };
 
