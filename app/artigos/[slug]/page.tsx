@@ -250,6 +250,16 @@ export default async function ArticlePage({ params }: { params: Params }) {
                     <span>Revisão: {reviewer}</span>
                   </>
                 )}
+                {!reviewer && article.sources && article.sources.length > 0 && (
+                  <>
+                    <span aria-hidden="true" className="hidden sm:inline">
+                      ·
+                    </span>
+                    <a href="#fontes" className="transition hover:text-accent">
+                      Baseado em {article.sources.length} {article.sources.length === 1 ? "fonte oficial" : "fontes oficiais"}
+                    </a>
+                  </>
+                )}
               </div>
               <ShareBar url={url} title={article.title} />
             </div>
@@ -295,7 +305,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
 
             <div className="max-w-[68ch]">
               {article.sources && article.sources.length > 0 && (
-                <section aria-label="Fontes" className="mt-10 rounded-xl border border-border bg-surface p-5">
+                <section id="fontes" aria-label="Fontes" className="mt-10 rounded-xl border border-border bg-surface p-5">
                   <h2 className="font-display text-lg font-bold">Fontes consultadas</h2>
                   <ul className="mt-3 list-disc space-y-1.5 pl-5 text-sm">
                     {article.sources.map((s) => (
