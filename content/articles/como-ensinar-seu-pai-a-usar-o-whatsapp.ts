@@ -5,9 +5,9 @@ export const article: Article = {
   title: "Como ensinar seu pai a usar o WhatsApp, passo a passo",
   seoTitle: "Como ensinar seu pai a usar o WhatsApp",
   excerpt:
-    "Como ensinar seu pai a usar o WhatsApp com paciência: passo a passo de letra, áudio, videochamada e foto, dicas de ensino e o que fazer com o medo de estragar.",
+    "Como ensinar seu pai a usar o WhatsApp com paciência: passo a passo de letra, áudio, videochamada e foto, dicas de ensino e o que fazer com o medo.",
   metaDescription:
-    "Como ensinar seu pai a usar o WhatsApp com paciência: passo a passo de letra, áudio, videochamada e foto, dicas de ensino e o que fazer com o medo de estragar.",
+    "Como ensinar seu pai a usar o WhatsApp com paciência: passo a passo de letra, áudio, videochamada e foto, dicas de ensino e o que fazer com o medo.",
   category: "tecnologia",
   date: "2026-10-01",
   readTime: 8,

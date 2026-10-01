@@ -5,9 +5,9 @@ export const article: Article = {
   title: "Andador ou bengala para idoso: qual escolher e como regular",
   seoTitle: "Andador ou bengala para idoso: como escolher",
   excerpt:
-    "Andador ou bengala: veja qual escolher para o idoso, os tipos de cada um, como conferir altura e peso e por que a regulagem deve ser feita por um profissional.",
+    "Andador ou bengala: veja qual escolher para o idoso, os tipos de cada um, como conferir altura e peso e por que um profissional deve fazer a regulagem.",
   metaDescription:
-    "Andador ou bengala: veja qual escolher para o idoso, os tipos de cada um, como conferir altura e peso e por que a regulagem deve ser feita por um profissional.",
+    "Andador ou bengala: veja qual escolher para o idoso, os tipos de cada um, como conferir altura e peso e por que um profissional deve fazer a regulagem.",
   category: "indica",
   date: "2026-10-01",
   readTime: 7,
@@ -41,7 +41,7 @@ export const article: Article = {
 <li>Há dor, fraqueza ou tontura ao levantar da cadeira.</li>
 <li>Voltou de uma cirurgia ou internação e perdeu força nas pernas.</li>
 </ul>
-<p>Muita gente resiste ao primeiro apoio por vergonha. Ajuda tratar o assunto como segurança para continuar independente, e não como sinal de fraqueza.</p>
+<p>Muita gente resiste ao primeiro apoio por vergonha. Trate o assunto como segurança para continuar independente.</p>
 
 <h2>Andador ou bengala: qual a diferença na prática</h2>
 <p>A bengala é um ponto de apoio único. Ela serve para quem tem bom equilíbrio e precisa de ajuda leve, por exemplo por dor em um joelho ou quadril, ou por receio ao caminhar na rua. Ela não sustenta o corpo todo, então não protege quem perde o equilíbrio com facilidade.</p>
@@ -87,7 +87,7 @@ export const article: Article = {
 <li>Na bengala, ela deve ser usada do lado contrário à perna ou ao lado mais fraco, mas essa regra tem exceções: pergunte ao profissional.</li>
 <li>Peça que ela caminhe alguns passos, vire e sente. Se ela inclinar o tronco, levantar os ombros ou sentir dor, a regulagem precisa de ajuste.</li>
 </ol>
-<p>Anote a altura final e marque no equipamento. Se mais de uma pessoa da casa for mexer nele, a marcação evita que alguém desregule sem querer.</p>
+<p>Anote a altura final e marque no equipamento.</p>
 
 <h2>Erros comuns na compra</h2>
 <ul>
@@ -95,8 +95,8 @@ export const article: Article = {
 <li>Pegar um equipamento emprestado ou herdado, regulado para outra pessoa.</li>
 <li>Escolher um andador largo demais para as portas do banheiro e dos quartos.</li>
 <li>Ignorar a ponteira gasta: borracha lisa escorrega, principalmente em piso molhado.</li>
-<li>Deixar a pessoa sem treino. Usar andador e bengala é uma habilidade que se aprende, inclusive subir e descer degraus.</li>
-<li>Esquecer a casa: tapete solto, fios no chão e pouca luz continuam sendo risco, com ou sem apoio. O guia para <a href="/artigos/como-adaptar-a-casa-para-idoso-banheiro-quarto-escada">adaptar a casa do idoso</a> ajuda a revisar cada cômodo.</li>
+<li>Deixar a pessoa sem treino de uso, inclusive em degraus.</li>
+<li>Esquecer a casa: tapete solto e fios no chão continuam sendo risco. O guia para <a href="/artigos/como-adaptar-a-casa-para-idoso-banheiro-quarto-escada">adaptar a casa do idoso</a> ajuda a revisar cada cômodo.</li>
 </ul>
 <p>Lembre ainda que andador e bengala não substituem outros itens do banheiro, onde o risco é maior. Veja como escolher <a href="/artigos/barra-de-apoio-no-banheiro-qual-comprar-e-onde-instalar">barra de apoio no banheiro</a> e <a href="/artigos/cadeira-de-banho-para-idoso-como-escolher">cadeira de banho para idoso</a>.</p>
 

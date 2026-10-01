@@ -45,8 +45,8 @@ export const article: Article = {
 
 <h2>Altura da cama: o primeiro critério de segurança</h2>
 <p>A altura certa é a que permite sentar com os pés apoiados no chão e os joelhos aproximadamente dobrados em ângulo reto. Cama muito baixa obriga a pessoa a fazer força para levantar. Cama muito alta deixa os pés no ar e aumenta o risco de queda na hora de descer.</p>
-<p>Para conferir, peça que a pessoa se sente na beira da cama com calçado antiderrapante. Ela deve conseguir se levantar sem balançar o corpo nem se agarrar em móveis. Lembre que a altura final soma estrado, base e colchão: trocar só o colchão por um mais grosso pode deixar a cama alta demais.</p>
-<p>A Organização Mundial da Saúde (OMS) lista quedas entre os principais problemas de saúde da pessoa idosa e reforça a prevenção, como mostra a <a href="https://www.who.int/news-room/fact-sheets/detail/falls" rel="noopener noreferrer" target="_blank">nota informativa da OMS</a>. Iluminação noturna, tapete fixo e espaço livre ao lado da cama também fazem parte do cuidado. Veja ainda <a href="/artigos/idoso-caiu-o-que-fazer-e-quando-ir-ao-hospital">o que fazer quando o idoso cai</a>.</p>
+
+<p>Confira a altura final somando estrado, base e colchão: trocar só o colchão por um mais grosso pode deixar a cama alta demais. A Organização Mundial da Saúde (OMS) lista quedas entre os principais problemas de saúde da pessoa idosa e reforça a prevenção, como mostra a <a href="https://www.who.int/news-room/fact-sheets/detail/falls" rel="noopener noreferrer" target="_blank">nota informativa da OMS</a>. Veja ainda <a href="/artigos/idoso-caiu-o-que-fazer-e-quando-ir-ao-hospital">o que fazer quando o idoso cai</a>.</p>
 
 <h2>Colchão para idoso: firmeza, material e densidade</h2>
 <p>Não existe colchão perfeito para todo mundo. A regra prática é buscar um apoio firme o bastante para o corpo não afundar e a pessoa conseguir se mexer, sem ser duro demais a ponto de machucar os pontos de pressão. Colchão muito mole dificulta virar na cama e levantar.</p>
@@ -55,10 +55,7 @@ export const article: Article = {
 <li><strong>Densidade e espuma:</strong> em modelos de espuma, a informação aparece na etiqueta. Compare o que a fábrica informa, sem se fiar só no nome comercial.</li>
 <li><strong>Suporte nas bordas:</strong> bordas firmes ajudam a sentar na beira sem afundar.</li>
 <li><strong>Capa:</strong> prefira capa lavável ou impermeável quando há risco de incontinência.</li>
-<li><strong>Calor:</strong> alguns materiais esquentam mais, e o calor atrapalha o sono.</li>
-<li><strong>Peso do colchão:</strong> muito pesado dificulta trocar lençol e virar o colchão.</li>
 </ul>
-<p>Se a pessoa tem dor persistente, converse com o médico antes de culpar o colchão. A dor pode ter outra causa.</p>
 
 <h2>Tipos de cama e colchão em comparação</h2>
 <p>Comparar por tipo ajuda mais do que comparar por marca. A tabela resume o uso mais comum, os pontos fortes e os limites.</p>
@@ -80,7 +77,7 @@ export const article: Article = {
 
 <h2>Grades laterais: proteção que também oferece risco</h2>
 <p>À primeira vista, grade parece sinônimo de segurança, mas ela pode causar acidentes graves. A pessoa pode ficar presa entre a grade e o colchão, ou tentar passar por cima e cair de uma altura maior. Em quem tem demência ou agitação, o risco costuma ser maior.</p>
-<p>Por isso, não instale grade por conta própria. Peça avaliação ao médico, ao enfermeiro ou ao terapeuta ocupacional, que verificam se há necessidade, que tipo usar e como evitar vãos. Também cheque se o colchão encaixa bem, sem folgas. Em alguns casos, a alternativa é baixar a altura da cama ou usar uma barra de apoio de alcance, em vez de grade. Em casos de agitação à noite, veja <a href="/artigos/idoso-com-alzheimer-agitado-a-noite-como-lidar">idoso com Alzheimer agitado à noite</a>.</p>
+<p>Por isso, não instale grade por conta própria. Peça avaliação ao médico, ao enfermeiro ou ao terapeuta ocupacional, que verificam se há necessidade, que tipo usar e como evitar vãos. Também cheque se o colchão encaixa bem, sem folgas. Em casos de agitação à noite, veja <a href="/artigos/idoso-com-alzheimer-agitado-a-noite-como-lidar">idoso com Alzheimer agitado à noite</a>.</p>
 
 <h2>Cama hospitalar ou cama comum: como decidir</h2>
 <p>A cama hospitalar costuma fazer sentido quando a pessoa passa a maior parte do dia deitada, precisa de ajuste de altura e de inclinação do tronco, ou quando o cuidador faz banho, curativo e troca de posição na cama. A cama comum atende bem quem ainda anda e levanta com autonomia.</p>
@@ -89,8 +86,6 @@ export const article: Article = {
 <li>A pessoa consegue sair da cama sozinha, com segurança?</li>
 <li>O cuidador tem dor nas costas ao trocar roupa e posição?</li>
 <li>Há espaço no quarto para circular com cadeira de rodas ou andador?</li>
-<li>A necessidade é permanente ou temporária? Em período curto, o aluguel pode ser uma saída.</li>
-<li>Quem vai ensinar a regulagem e a manutenção?</li>
 </ul>
 <p>Antes de comprar, confira se o fabricante está regularizado e se o produto é de uso em saúde. Dúvidas sobre produtos para saúde podem ser consultadas no site da <a href="https://www.gov.br/anvisa/pt-br" rel="noopener noreferrer" target="_blank">Anvisa</a>. A <a href="https://www.abnt.org.br" rel="noopener noreferrer" target="_blank">ABNT</a> é a entidade responsável pelas normas técnicas no Brasil, e vale perguntar ao vendedor quais normas o produto declara seguir, sempre pedindo isso por escrito.</p>
 
@@ -100,10 +95,8 @@ export const article: Article = {
 <li>Leve a pessoa idosa à loja, sempre que possível, para sentar, deitar e levantar.</li>
 <li>Confira a altura final somando base e colchão.</li>
 <li>Peça informações por escrito: composição, densidade, garantia e prazo de troca.</li>
-<li>Confirme o peso máximo suportado e se ele serve para a pessoa.</li>
 <li>Na entrega, verifique se não há folga entre colchão, cabeceira e eventuais grades.</li>
 <li>Deixe luz de vigia perto e caminho livre até o banheiro. Veja <a href="/artigos/barra-de-apoio-no-banheiro-qual-comprar-e-onde-instalar">barra de apoio no banheiro</a>.</li>
-<li>Observe a pele e o sono nas primeiras semanas e anote o que mudou.</li>
 </ol>
 
 <h2>Erros comuns de compra</h2>
@@ -113,12 +106,10 @@ export const article: Article = {
 <li>Instalar grade sem avaliação de profissional.</li>
 <li>Acreditar que um colchão especial dispensa mudar de posição.</li>
 <li>Comprar sem conferir garantia, prazo de troca e peso suportado.</li>
-<li>Não perguntar à pessoa idosa o que ela sente ao deitar e ao levantar.</li>
-<li>Ignorar o espaço do quarto, que precisa permitir ajuda de outra pessoa.</li>
 </ul>
 
 <h2>Faixa de preço e honestidade na comparação</h2>
-<p>Os preços variam muito entre colchão simples, colchão para prevenção de lesão, cama regulável e cama hospitalar, e mudam com o tempo. Por isso não vamos citar valores. Compare pelo menos três ofertas, some frete, montagem e garantia, e veja se existe a opção de aluguel quando o uso é temporário. Desconfie de promessas de cura de dor ou de "terapia" milagrosa em colchão. Colchão ajuda no conforto e na prevenção, mas não trata doença.</p>
+<p>Os preços variam muito entre colchão simples, colchão para prevenção de lesão, cama regulável e cama hospitalar, e mudam com o tempo. Por isso não vamos citar valores. Compare pelo menos três ofertas, some frete, montagem e garantia, e veja se existe a opção de aluguel quando o uso é temporário.</p>
 
 <div class="callout-box callout-tip"><span class="callout-label">Antes de clicar em comprar</span><ul class="checklist">
 <li>A pessoa idosa experimentou e consegue sentar e levantar com segurança.</li>

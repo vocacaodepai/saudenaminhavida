@@ -5,9 +5,9 @@ export const article: Article = {
   title: "Celular simples para idoso: como escolher sem se arrepender",
   seoTitle: "Celular simples para idoso: como escolher",
   excerpt:
-    "Celular simples para idoso: veja os critérios que importam, compare os três tipos de aparelho e saiba como configurar um smartphone comum para o seu pai ou sua mãe.",
+    "Celular simples para idoso: veja os critérios que importam, compare os três tipos de aparelho e saiba configurar um smartphone comum para seu pai ou sua mãe.",
   metaDescription:
-    "Celular simples para idoso: veja os critérios que importam, compare os três tipos de aparelho e saiba como configurar um smartphone comum para o seu pai ou sua mãe.",
+    "Celular simples para idoso: veja os critérios que importam, compare os três tipos de aparelho e saiba configurar um smartphone comum para seu pai ou sua mãe.",
   category: "tecnologia",
   date: "2026-10-01",
   readTime: 8,

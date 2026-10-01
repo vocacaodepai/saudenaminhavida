@@ -5,9 +5,9 @@ export const article: Article = {
   title: "Organizador de remédio semanal: como escolher o ideal",
   seoTitle: "Organizador de remédio semanal: como escolher",
   excerpt:
-    "Organizador de remédio semanal: veja como escolher o tipo certo para o idoso, o tamanho dos compartimentos, os erros de compra e o que conferir antes de comprar.",
+    "Organizador de remédio semanal: veja como escolher o tipo certo para o idoso, o tamanho dos compartimentos, os erros de compra e o que conferir antes.",
   metaDescription:
-    "Organizador de remédio semanal: veja como escolher o tipo certo para o idoso, o tamanho dos compartimentos, os erros de compra e o que conferir antes de comprar.",
+    "Organizador de remédio semanal: veja como escolher o tipo certo para o idoso, o tamanho dos compartimentos, os erros de compra e o que conferir antes.",
   category: "indica",
   date: "2026-10-01",
   readTime: 7,
