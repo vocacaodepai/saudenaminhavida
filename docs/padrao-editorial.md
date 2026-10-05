@@ -137,7 +137,7 @@ Tamanho: 1.000 a 1.600 palavras de texto real (sem contar tags). O script exige 
   públicos: segurança, facilidade, durabilidade, preço, avaliações reais. Nota de 0 a 10.
 - Nunca gerar imagem de produto por IA; usar foto oficial do fabricante e
   `scripts/build-product-cover.mjs`.
-- Botão de compra: `<div class="buy-btn"><a href="https://www.amazon.com.br/dp/<ASIN>?tag=SEU-TAG" rel="sponsored noopener noreferrer" target="_blank">Comprar ... agora ↗</a></div>`.
+- Botão de compra: `<div class="buy-btn"><a href="https://www.amazon.com.br/dp/<ASIN>?tag=saudenaminhavida-20" rel="sponsored noopener noreferrer" target="_blank">Comprar ... agora ↗</a></div>`.
 
 ## 9. Antes de publicar
 

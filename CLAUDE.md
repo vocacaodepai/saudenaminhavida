@@ -34,19 +34,17 @@ e `node scripts/build-product-cover.mjs <entrada> <saida>` para fotos verticais.
 
 ```html
 <div class="buy-btn">
-  <a href="https://www.amazon.com.br/dp/<ASIN>?tag=<TAG-DE-AFILIADO>" rel="sponsored noopener noreferrer" target="_blank">Comprar <Produto> agora ↗</a>
+  <a href="https://www.amazon.com.br/dp/<ASIN>?tag=saudenaminhavida-20" rel="sponsored noopener noreferrer" target="_blank">Comprar <Produto> agora ↗</a>
 </div>
 ```
 
-A tag de afiliado ainda precisa ser criada no programa de associados da Amazon Brasil; até
-lá, não publicar artigos da categoria Indica com link de compra.
+A tag de afiliado do site é `saudenaminhavida-20` (ver a seção "Tag de afiliado Amazon").
 
 ## Tag de afiliado Amazon
 
-Tag de afiliado Amazon: PENDENTE
+Tag de afiliado Amazon: saudenaminhavida-20
 
-(Preencher assim que o usuário criar a tag para este site no programa de associados da Amazon
-Brasil. Enquanto estiver PENDENTE, nenhuma rotina publica link de compra.)
+(Se um dia esta linha voltar a dizer PENDENTE, nenhuma rotina publica link de compra.)
 
 ## Escopo: só tema de leigo
 
@@ -64,7 +62,7 @@ Três rotinas automáticas, cada uma com roteiro em `docs/rotinas/` (leia `comum
   `rotina`, `tecnologia`, `atividades`, `direitos` e `cuidador`. Sem link de afiliado.
 - **5 produtos por dia** (`docs/rotinas/indica.md`, 06:30 Brasília): sempre `category: "indica"`, 3
   comparativos + 2 reviews de produto real da Amazon Brasil, com foto oficial do fabricante e link de
-  afiliado (só depois que a tag deixar de ser PENDENTE).
+  afiliado (tag `saudenaminhavida-20`).
 - **Notícias com fonte** (`docs/rotinas/noticias.md`, a cada 3 horas, no máximo 1 por rodada): fatos
   verificáveis sobre benefícios, golpes, regulação e produtos, com `sourceUrl` conferida.
 
