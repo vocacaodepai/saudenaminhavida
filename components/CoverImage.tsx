@@ -1,7 +1,14 @@
 import { getPexelsImage } from "@/lib/pexels";
 import { getPixabayImage } from "@/lib/pixabay";
 
-export type CoverOverride = { url: string; width: number; height: number; credit: string; creditUrl: string };
+export type CoverOverride = {
+  url: string;
+  width: number;
+  height: number;
+  credit: string;
+  creditUrl: string;
+  fit?: "cover" | "contain";
+};
 
 // Fallback quando não há foto: gradiente escuro com um brilho da marca,
 // coerente com o tema (funciona no claro e no escuro).
@@ -100,7 +107,7 @@ export async function CoverImage({
       loading={priority ? "eager" : "lazy"}
       fetchPriority={priority ? "high" : "auto"}
       decoding={priority ? "sync" : "async"}
-      className={override ? "h-full w-full object-contain p-3 sm:p-6" : "h-full w-full object-cover"}
+      className={override && override.fit !== "cover" ? "h-full w-full object-contain p-3 sm:p-6" : "h-full w-full object-cover"}
     />
   );
   const creditText = override ? `Foto: ${override.credit}` : `Foto: ${(photo as { photographer: string; source: string }).photographer} / ${(photo as { photographer: string; source: string }).source}`;
