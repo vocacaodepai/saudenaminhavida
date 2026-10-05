@@ -129,6 +129,11 @@ export type Article = {
   sources?: { label: string; url: string }[];
   /** Profissional que revisou o conteúdo (nome e registro), exibido no topo do artigo. */
   reviewedBy?: string;
+  /**
+   * Fora do índice do Google (noindex) e do sitemap/RSS. Usado em guias clínicos de apoio
+   * (saúde e urgências) enquanto o site não tem revisão profissional.
+   */
+  noindex?: boolean;
 };
 
 export type NewsFaqItem = FaqItem;

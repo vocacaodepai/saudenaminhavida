@@ -41,6 +41,36 @@ e `node scripts/build-product-cover.mjs <entrada> <saida>` para fotos verticais.
 A tag de afiliado ainda precisa ser criada no programa de associados da Amazon Brasil; até
 lá, não publicar artigos da categoria Indica com link de compra.
 
+## Tag de afiliado Amazon
+
+Tag de afiliado Amazon: PENDENTE
+
+(Preencher assim que o usuário criar a tag para este site no programa de associados da Amazon
+Brasil. Enquanto estiver PENDENTE, nenhuma rotina publica link de compra.)
+
+## Escopo: só tema de leigo
+
+O site não tem médico por trás e não finge ter. Só publicamos temas que um leigo pode fazer com
+curadoria, experiência e fonte oficial (produtos, casa e rotina, tecnologia, atividades, direitos
+e burocracia, dia a dia do cuidador). Nada de sintoma, doença, tratamento, remédio, dose, primeiros
+socorros ou promessa terapêutica. Os 9 guias da categoria `saude` ficam com `noindex: true` e não
+crescem. Detalhes em `docs/padrao-editorial.md` (seção 0).
+
+## Rotina editorial diária (mesma estratégia do Portal da IA)
+
+Três rotinas automáticas, cada uma com roteiro em `docs/rotinas/` (leia `comum.md` antes):
+
+- **5 artigos por dia** (`docs/rotinas/artigos.md`, 06:00 Brasília): guias informativos das categorias
+  `rotina`, `tecnologia`, `atividades`, `direitos` e `cuidador`. Sem link de afiliado.
+- **5 produtos por dia** (`docs/rotinas/indica.md`, 06:30 Brasília): sempre `category: "indica"`, 3
+  comparativos + 2 reviews de produto real da Amazon Brasil, com foto oficial do fabricante e link de
+  afiliado (só depois que a tag deixar de ser PENDENTE).
+- **Notícias com fonte** (`docs/rotinas/noticias.md`, a cada 3 horas, no máximo 1 por rodada): fatos
+  verificáveis sobre benefícios, golpes, regulação e produtos, com `sourceUrl` conferida.
+
+Todas validam (`check:content`, `lint`, `build`), abrem PR para a branch de produção e mesclam por
+squash sozinhas (autorizado pelo usuário, como no Portal da IA).
+
 ## Deploy
 
 Vercel (a configurar). Domínio previsto: `www.saudenaminhavida.com.br`. O workflow do GitHub

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Idoso engasgou e não consegue respirar? Veja quando ligar para o SAMU (192), como agir passo a passo e como reduzir o risco de novos engasgos em casa.",
   category: "saude",
+  noindex: true,
   date: "2026-10-01",
   readTime: 7,
   imageQuery: "elderly man eating meal table",

@@ -25,11 +25,15 @@ export function categoriaParams(): { slug: string }[] {
 export function categoriaMetadata(slug: string, page: number): Metadata {
   const category = getCategory(slug);
   if (!category) return {};
-  return listingMetadata({
-    title: pagedTitle(category.label, page),
-    description: category.description,
-    path: pageHref(categoriaBase(slug), page),
-  });
+  return {
+    ...listingMetadata({
+      title: pagedTitle(category.label, page),
+      description: category.description,
+      path: pageHref(categoriaBase(slug), page),
+    }),
+    // Guias clínicos de apoio ficam fora do índice do Google (ver Article.noindex).
+    ...(slug === "saude" ? { robots: { index: false, follow: true } } : {}),
+  };
 }
 
 export function CategoriaPage({ slug, page }: { slug: string; page: number }) {

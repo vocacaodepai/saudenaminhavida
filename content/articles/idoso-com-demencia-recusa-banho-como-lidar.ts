@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Idoso com demência recusa banho? Entenda os motivos da resistência e veja passos práticos para higiene com calma, segurança e respeito, sem brigas.",
   category: "saude",
+  noindex: true,
   date: "2026-10-01",
   readTime: 7,
   imageQuery: "caregiver helping elderly bathroom",

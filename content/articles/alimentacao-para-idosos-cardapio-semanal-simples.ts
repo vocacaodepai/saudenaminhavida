@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Alimentação para idosos sem complicação: veja um cardápio semanal simples em tabela, com dicas de proteína, hidratação e adaptação para cada pessoa.",
   category: "saude",
+  noindex: true,
   date: "2026-10-01",
   readTime: 8,
   imageQuery: "elderly couple healthy breakfast",

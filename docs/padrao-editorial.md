@@ -3,6 +3,29 @@
 Vale para todo artigo em `content/articles/<slug>.ts`. O script `npm run check:content`
 confere a parte mecânica; o resto é responsabilidade de quem escreve.
 
+## 0. Escopo: só o que um leigo pode fazer (regra do site)
+
+O site NÃO tem médico por trás e não vai fingir que tem. Por isso o escopo é limitado a
+temas em que curadoria, experiência e fonte oficial bastam. Vale para toda rotina e todo artigo.
+
+**Pode (temas de leigo):** guias de compra e comparativos de produtos; adaptar a casa e a
+rotina; organização do dia a dia; tecnologia (celular, WhatsApp, golpes); atividades e lazer;
+direitos, benefícios e burocracia (com fonte oficial e "consulte o gov.br/INSS 135");
+experiência do cuidador (cansaço, divisão de tarefas, como pedir ajuda); receitas e
+organização de refeições sem alegação de saúde.
+
+**Não pode (exige profissional, fica de fora):** sintoma, doença, diagnóstico, tratamento,
+medicamento ou dose, primeiros socorros, interpretação de exame, suplemento "para" doença,
+qualquer "como curar/tratar/prevenir X". Em tema de borda (ex.: cama e prevenção de lesão por
+pressão), fale só do produto e do ambiente e mande procurar o profissional.
+
+**Produtos:** nunca prometa efeito terapêutico. Descreva função, medida, material, segurança de
+uso e preço. Dispositivo médico (andador, cadeira de banho, sensor) é descrito como item de
+conforto e segurança doméstica, não como tratamento.
+
+**Guias clínicos já publicados** (categoria `saude`, 9 artigos) ficam com `noindex: true`
+(fora do Google) e NÃO crescem: nenhuma rotina escreve novos nessa categoria.
+
 ## 1. Voz e propósito
 
 - O blog ajuda **filhos, netos e cuidadores de pessoas idosas** (60+) a cuidar da saúde de
@@ -31,7 +54,7 @@ confere a parte mecânica; o resto é responsabilidade de quem escreve.
 - Todo artigo de urgência, sintoma ou medicação começa com um **callout-warn** dizendo
   quando ligar para o SAMU (192) ou ir ao pronto-socorro, antes de qualquer outra coisa.
 - Todo artigo clínico traz um parágrafo "Quando procurar o médico".
-- Revisão por profissional de saúde: quando houver revisor real, preencha `reviewedBy`
+- Revisão por profissional de saúde: não é exigida, porque o escopo evita temas clínicos. Se um dia houver revisor real, preencha `reviewedBy`
   (ou `author.reviewer` em `lib/author.ts`) com nome e registro. **Nunca invente revisor.**
   Sem revisor real, o selo simplesmente não aparece.
 

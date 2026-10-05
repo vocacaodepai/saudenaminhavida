@@ -47,6 +47,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     title,
     description,
     alternates: alternatesFor(path),
+    ...(article.noindex ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       type: "article",
       url: absoluteUrl(path),

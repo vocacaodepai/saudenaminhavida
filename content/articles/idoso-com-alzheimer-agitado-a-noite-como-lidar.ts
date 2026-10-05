@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Idoso com Alzheimer agitado à noite: entenda o que pode causar a agitação no fim do dia e veja medidas práticas para acalmar e quando chamar o médico.",
   category: "saude",
+  noindex: true,
   date: "2026-10-01",
   readTime: 7,
   imageQuery: "elderly man window evening",

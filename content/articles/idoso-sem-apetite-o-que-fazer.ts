@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Idoso sem apetite é comum, mas não deve ser ignorado. Veja causas frequentes, estratégias práticas para a hora da refeição e sinais de alerta.",
   category: "saude",
+  noindex: true,
   date: "2026-10-01",
   readTime: 7,
   imageQuery: "elderly woman eating soup",

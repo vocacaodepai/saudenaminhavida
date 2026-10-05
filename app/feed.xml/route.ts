@@ -20,7 +20,7 @@ function rfc822(iso: string) {
 export function GET() {
   const label = (slug: string) => categories.find((c) => c.slug === slug)?.label ?? slug;
   const entries = [
-    ...sortedArticles().slice(0, 30).map((a) => ({
+    ...sortedArticles().filter((a) => !a.noindex).slice(0, 30).map((a) => ({
       title: a.title,
       link: `${site.url}/artigos/${a.slug}`,
       description: a.excerpt,

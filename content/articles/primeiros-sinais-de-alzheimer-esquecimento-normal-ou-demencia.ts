@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Primeiros sinais de Alzheimer: veja como diferenciar o esquecimento comum da idade de uma possível demência e quando levar seu pai ou sua mãe ao médico.",
   category: "saude",
+  noindex: true,
   date: "2026-10-01",
   readTime: 7,
   imageQuery: "elderly woman hands caregiver",

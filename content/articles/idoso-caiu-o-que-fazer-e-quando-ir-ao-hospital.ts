@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Idoso caiu e você não sabe o que fazer? Veja o passo a passo, os sinais que exigem o SAMU (192) e quando levar ao pronto-socorro, sem pânico.",
   category: "saude",
+  noindex: true,
   date: "2026-10-01",
   readTime: 7,
   imageQuery: "elderly woman fallen floor home",

@@ -83,7 +83,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const categorias = categories.flatMap((c) =>
+  const categorias = categories.filter((c) => c.slug !== "saude").flatMap((c) =>
     paginated(
       `/categoria/${c.slug}`,
       getArticlesByCategory(c.slug).map(articleModified),
@@ -109,7 +109,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "/sobre" ? 0.4 : 0.3,
   }));
 
-  const artigoPages: Entry[] = articles.map((a) => ({
+  const artigoPages: Entry[] = articles.filter((a) => !a.noindex).map((a) => ({
     url: absoluteUrl(`/artigos/${a.slug}`),
     lastModified: articleModified(a),
     changeFrequency: "weekly",
