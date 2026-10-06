@@ -22,16 +22,18 @@ Repositório: `vocacaodepai/saudenaminhavida`. Branch de produção: `claude/sau
   branch de produção, aguardar os checks de status se existirem (Vercel, quando configurada; se não
   houver nenhum check, o critério é check:content + lint + build locais verdes) e mesclar por squash
   sozinho. Só finalize depois de `merged: true`, ou se não houver pauta viável.
-- **Capas dos artigos: ORDEM DE BUSCA OBRIGATÓRIA (regra permanente do usuário):**
-  1. **Wikimedia Commons PRIMEIRO.** `node scripts/wikimedia-image.mjs "<busca em inglês>"` lista candidatos
-     de licença livre (CC0, domínio público, CC BY, CC BY-SA; nunca NC, ND ou fair use). Escolha um e rode
-     `node scripts/wikimedia-image.mjs "<busca>" --pick N --slug <slug-do-artigo>`: baixa para
-     `public/images/capas/<slug>.jpg` (1600 px) e imprime o bloco `coverImage` com autor, licença e link da
-     página do arquivo. Cole o bloco logo após `imageQuery`. Respeite o limite do site: o script já espera
-     o `Retry-After`; não faça rajadas.
-  2. **Só se o Commons não tiver foto adequada:** Unsplash via `mcp__Unsplash__search_photos` (baixar para
-     `public/images/capas/<slug>.jpg`, crédito "Nome / Unsplash" com `creditUrl` com utm).
-  3. **Só depois:** Pexels ou Pixabay (por chave de API, se existir). 4. Sem nenhuma, omita `coverImage`.
-  Critérios em qualquer fonte: pessoa idosa com dignidade, sem marca visível, sem texto na imagem, sem cena
-  de sofrimento, sem pessoa caída ou engasgada, nunca repetir foto já usada (`md5sum public/images/capas/*.jpg`).
-  Olhe a imagem baixada antes de aplicar. Foto de PRODUTO continua a regra própria (foto oficial do fabricante).
+- **Capas dos artigos: regra permanente do usuário = a foto que MELHOR se encaixa no artigo, de qualquer fonte.**
+  Procure primeiro no Wikimedia Commons, mas não se prenda a ele: se a melhor foto estiver no Unsplash,
+  Pexels ou Pixabay, use essa. O critério é o encaixe com o tema do artigo, não a fonte.
+  - **Commons:** `node scripts/wikimedia-image.mjs "<busca em inglês>"` lista candidatos de licença livre
+    (CC0, domínio público, CC BY, CC BY-SA; nunca NC, ND ou fair use). Para usar um:
+    `node scripts/wikimedia-image.mjs "<busca>" --pick N --slug <slug-do-artigo>` baixa para
+    `public/images/capas/<slug>.jpg` (1600 px) e imprime o bloco `coverImage` com autor, licença e link da
+    página do arquivo. O script já espera o `Retry-After`; não faça rajadas.
+  - **Unsplash:** `mcp__Unsplash__search_photos` (baixar para `public/images/capas/<slug>.jpg`, crédito
+    "Nome / Unsplash" com `creditUrl` com utm). **Pexels/Pixabay:** só por chave de API, se existir.
+  - Compare os candidatos das fontes que buscou e escolha o melhor. Sem foto boa em nenhuma, omita `coverImage`.
+  - Critérios em qualquer fonte: pessoa idosa com dignidade, sem marca visível, sem texto na imagem, sem cena
+    de sofrimento, sem pessoa caída ou engasgada, nunca repetir foto já usada (`md5sum public/images/capas/*.jpg`).
+    Olhe a imagem baixada antes de aplicar. Foto de PRODUTO continua a regra própria (foto oficial do fabricante).
+  - As capas já publicadas não são trocadas em massa; só se uma for claramente ruim.
