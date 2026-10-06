@@ -24,6 +24,13 @@ O padrão editorial completo está em `docs/padrao-editorial.md`. Leia antes de 
 - Nunca invente revisor médico. `author.reviewer` em `lib/author.ts` fica vazio até existir
   um profissional real (nome + registro); com ele vazio, o selo de revisão não aparece.
 
+## Imagens de capa: Wikimedia Commons primeiro
+
+Regra permanente do usuário: para qualquer imagem editorial, busque PRIMEIRO no Wikimedia Commons
+(`node scripts/wikimedia-image.mjs`), depois Unsplash, depois Pexels/Pixabay. Só licenças livres
+(CC0, domínio público, CC BY, CC BY-SA) e sempre com crédito (autor, licença e link da página do arquivo).
+Detalhes em `docs/rotinas/comum.md`.
+
 ## Imagens de produto (categoria Indica)
 
 Nunca usar gerador de imagem por IA para capa ou foto de produto: a IA erra marca e logo.
