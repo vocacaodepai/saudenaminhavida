@@ -128,13 +128,14 @@ export default function PoliticaEditorialPage() {
       <p>
         As análises de produto da categoria <Link href="/categoria/indica">Melhores Produtos</Link> e da página{" "}
         <Link href="/reviews">comparativos</Link> seguem critérios públicos, cada um com nota de
-        0 a 10: segurança, facilidade de uso, durabilidade, preço e avaliações reais de quem já
-        comprou. A nota final é a média desses critérios, exibida junto com prós, contras, para quem
+        0 a 10: segurança, facilidade de uso, construção, garantia e suporte, e transparência do
+        fabricante. A nota final é a média desses critérios, exibida junto com prós, contras, para quem
         serve e o link do produto.
       </p>
       <p>
         Não alegamos teste pessoal que não aconteceu. Quando a análise se baseia em especificações do
-        fabricante, normas, documentação oficial e avaliações de compradores, o texto diz isso. Nenhuma
+        fabricante, normas e documentação oficial, o texto diz isso. Não afirmamos preço nem nota de
+        compradores, porque mudam a todo momento: o botão de compra leva à página atual do produto. Nenhuma
         nota é vendida, negociada ou influenciada por anunciante, programa de afiliado ou pedido do
         fabricante. Se o produto mudar de forma relevante, a análise é revisada e a nota pode mudar.
       </p>

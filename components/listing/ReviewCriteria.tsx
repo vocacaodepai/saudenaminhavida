@@ -3,9 +3,9 @@ import Link from "next/link";
 const CRITERIA = [
   { label: "Segurança", text: "Reduz de verdade o risco de queda, engasgo ou erro de medicação? Tem certificação ou norma quando aplicável." },
   { label: "Facilidade", text: "Um idoso ou um cuidador cansado consegue usar sem manual e sem ajuda técnica?" },
-  { label: "Durabilidade", text: "Material, peso suportado e o que as avaliações reais dizem depois de meses de uso." },
-  { label: "Preço", text: "Quanto custa em reais, se há opção mais barata que faz o mesmo e se o preço compensa." },
-  { label: "Avaliações reais", text: "O que compradores contam sobre entrega, defeitos e atendimento, sem depender da página de vendas." },
+  { label: "Construção", text: "Material, peso suportado, regulagens e acabamento, conforme a ficha técnica oficial do fabricante." },
+  { label: "Garantia e suporte", text: "Prazo de garantia, canal de atendimento e manual em português disponíveis no site do fabricante." },
+  { label: "Transparência", text: "O fabricante informa medidas, normas e certificações com clareza, sem prometer efeito que o produto não tem." },
 ];
 
 /** Bloco "Como avaliamos": critérios públicos das notas das análises. */

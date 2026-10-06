@@ -68,8 +68,10 @@ Três rotinas automáticas, cada uma com roteiro em `docs/rotinas/` (leia `comum
 - **5 artigos por dia** (`docs/rotinas/artigos.md`, 06:00 Brasília): guias informativos das categorias
   `rotina`, `tecnologia`, `atividades`, `direitos` e `cuidador`. Sem link de afiliado.
 - **5 produtos por dia** (`docs/rotinas/indica.md`, 06:30 Brasília): sempre `category: "indica"`, 3
-  comparativos + 2 reviews de produto real da Amazon Brasil, com foto oficial do fabricante e link de
-  afiliado (tag `saudenaminhavida-20`).
+  comparativos + 2 reviews de produto real (ASIN conferido por busca na Amazon Brasil), SÓ de marcas
+  conhecidas com site oficial (ficha técnica e foto oficial do fabricante), link de afiliado (tag
+  `saudenaminhavida-20`). A página da Amazon não abre no ambiente: o site não afirma preço nem nota de
+  compradores ("Consulte na Amazon"). Sem produto viável, a rodada termina em silêncio.
 - **Notícias com fonte** (`docs/rotinas/noticias.md`, a cada 3 horas, no máximo 1 por rodada): fatos
   verificáveis sobre benefícios, golpes, regulação e produtos, com `sourceUrl` conferida.
 

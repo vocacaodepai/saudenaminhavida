@@ -134,7 +134,9 @@ Tamanho: 1.000 a 1.600 palavras de texto real (sem contar tags). O script exige 
 ## 8. Produtos (categoria `indica`, `kind: "review"`)
 
 - Só produtos reais vendidos na Amazon Brasil, com link de afiliado e aviso. Critérios
-  públicos: segurança, facilidade, durabilidade, preço, avaliações reais. Nota de 0 a 10.
+  públicos: segurança, facilidade, construção, garantia e suporte, transparência do fabricante.
+  Nota de 0 a 10. NÃO afirmar preço nem nota/avaliação de compradores (a página da Amazon não é verificável
+  pelo ambiente das rotinas): usar `review.price: "Consulte na Amazon"` e dizer que o preço muda.
 - Nunca gerar imagem de produto por IA; usar foto oficial do fabricante e
   `scripts/build-product-cover.mjs`.
 - Botão de compra: `<div class="buy-btn"><a href="https://www.amazon.com.br/dp/<ASIN>?tag=saudenaminhavida-20" rel="sponsored noopener noreferrer" target="_blank">Comprar ... agora ↗</a></div>`.

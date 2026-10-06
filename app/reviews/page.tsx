@@ -15,7 +15,7 @@ import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 const PATH = "/reviews";
 const TITLE = "Comparativos e análises de produtos";
 const DESCRIPTION =
-  "Análises independentes de produtos para o cuidado de idosos em casa, com nota de 0 a 10 por critérios públicos: segurança, facilidade, durabilidade, preço e avaliações reais.";
+  "Análises independentes de produtos para o cuidado de idosos em casa, com nota de 0 a 10 por critérios públicos: segurança, facilidade, construção, garantia e transparência do fabricante.";
 
 export const metadata: Metadata = listingMetadata({ title: TITLE, description: DESCRIPTION, path: PATH });
 
@@ -58,7 +58,7 @@ export default function ReviewsPage() {
           label="Produtos"
           title={TITLE}
           description={DESCRIPTION}
-          intro="Analisamos cada produto a partir da ficha técnica oficial e das avaliações reais de quem comprou, olhando primeiro a segurança do idoso. A nota resume a análise; o texto explica o porquê. Não alegamos teste físico que não aconteceu."
+          intro="Analisamos cada produto a partir da ficha técnica e das informações oficiais do fabricante, olhando primeiro a segurança do idoso. A nota resume a análise; o texto explica o porquê. Não alegamos teste físico que não aconteceu, e não afirmamos preço nem nota de compradores: o preço muda a todo momento, e o botão de compra leva à página atual do produto."
           count={countLabel(reviews.length, "análise", "análises")}
         />
         <CategoryChips active="reviews" className="mt-8 border-y border-border py-3" />
@@ -84,7 +84,7 @@ export default function ReviewsPage() {
                       As primeiras análises estão sendo preparadas
                     </h2>
                     <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-foreground/80 sm:text-base">
-                      Cada análise confere ficha técnica, normas de segurança e avaliações reais antes de
+                      Cada análise confere ficha técnica, normas de segurança e informações do fabricante antes de
                       ganhar nota. Quando a primeira for publicada, ela aparece aqui e no feed do site. Até
                       lá, os guias de compra abaixo já ajudam a escolher o que comprar.
                     </p>
