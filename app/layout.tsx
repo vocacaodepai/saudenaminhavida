@@ -25,8 +25,8 @@ const nunito = Nunito({
 });
 
 const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
-// Google Analytics 4 (defina NEXT_PUBLIC_GA_ID vazio na Vercel para desligar).
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "";
+// Google Analytics 4. O ID padrão é o do site; defina NEXT_PUBLIC_GA_ID vazio na Vercel para desligar.
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-QW722GW9SG";
 
 // Aplica o tema salvo antes da primeira pintura (evita "flash" ao trocar de tema).
 const THEME_INIT = `(function(){try{var t=localStorage.getItem("snmv-theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}})();`;
