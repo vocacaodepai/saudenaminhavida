@@ -1,10 +1,10 @@
-# Rotina: notícias com fonte (a cada 3 horas)
+# Rotina: notícias do dia com fonte (a cada 2 horas, das 06:20 às 22:20 de Brasília)
 
-Leia `docs/rotinas/comum.md` primeiro. Se não houver notícia nova de verdade, termine em silêncio,
-sem commit e sem mensagem.
+Leia `docs/rotinas/comum.md` primeiro. Meta: publicar TODAS as notícias do dia que tenham a ver com o tema do site, sem teto por rodada.
+Se não houver notícia nova de verdade, termine em silêncio, sem commit e sem mensagem.
 
 ## O que buscar (escopo de leigo)
-- WebSearch (3 a 6 buscas, em português) por notícias das últimas 24 a 48 horas que interessem a quem
+- WebSearch (3 a 6 buscas, em português) por notícias DO DIA (publicadas hoje, no fuso de Brasília; ontem só se ainda não foi coberta e for muito relevante) que interessem a quem
   cuida de idosos em casa: benefícios e regras (INSS, BPC, aposentadoria, Meu INSS), leis e programas
   (Estatuto da Pessoa Idosa, gratuidades, prioridade), golpes e fraudes contra idosos, regulação de
   planos de saúde e de casas de repouso (decisões da ANS e da Anvisa sobre serviços e produtos),
@@ -13,7 +13,10 @@ sem commit e sem mensagem.
 - NÃO publique pesquisa médica, estudo clínico, novo tratamento, vacina ou remédio.
 - Só fato verificável com `sourceUrl` real de veículo ou órgão oficial que você abriu (WebFetch) e
   conferiu. Nunca invente, nunca reescreva boato. Compare com `content/news` (títulos e `sourceUrl`):
-  nunca a mesma notícia ou fonte duas vezes. Publique no máximo 1 notícia por rodada.
+  nunca a mesma notícia ou fonte duas vezes. Não há limite de notícias por rodada: publique cada fato novo, verificado e do dia que atenda ao tema,
+  um arquivo por notícia. Faça 6 a 10 buscas variadas para cobrir os temas. Com 3 ou mais notícias na
+  rodada, escreva-as em paralelo (um agente por notícia) e valide tudo num PR só. Qualidade antes de
+  quantidade: sem fonte aberta e conferida, a notícia não entra.
 
 ## Escrever
 - `npm run content:new -- noticia <slug>`. Campos: title (55 a 75 caracteres, factual), summary (140 a

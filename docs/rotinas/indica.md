@@ -1,4 +1,7 @@
-# Rotina: 5 produtos por dia, categoria `indica` (06:30 de Brasília)
+# Rotina: produtos, 2 rodadas por dia (09:37 e 17:37 de Brasília), 5 por rodada = 10 por dia, categoria `indica`
+
+Meta do site: 20 artigos por dia (10 guias + 10 produtos). Na 2ª rodada do dia (a partir das 14h), liste os
+produtos com a data de hoje e não repita marca nem categoria de produto da 1ª rodada.
 
 Leia `docs/rotinas/comum.md` primeiro. Reproduz a rotina de produtos do Portal da IA, ajustada ao que é
 verificável neste ambiente (ver "Limites de verificação").
