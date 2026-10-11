@@ -1,9 +1,16 @@
-# Rotina: 5 artigos por dia (06:00 de Brasília)
+# Rotina: guias, 2 rodadas por dia (06:07 e 13:07 de Brasília), 5 guias por rodada = 10 por dia
 
-Leia `docs/rotinas/comum.md` primeiro.
+Leia `docs/rotinas/comum.md` primeiro. Meta do site: 20 artigos por dia (10 guias + 10 produtos), em quatro
+rodadas em horários diferentes: guias 06:07, produtos 09:37, guias 13:07, produtos 17:37 (Brasília).
+
+## Qual rodada é esta
+- Veja a hora em Brasília e a data de hoje. Antes das 10h = 1ª rodada de guias; depois = 2ª rodada.
+- 2ª rodada: liste os guias com a data de hoje (`grep -l 'date: "AAAA-MM-DD"' content/articles/*.ts`) e escolha,
+  em cada categoria, assunto DIFERENTE dos que a 1ª rodada já publicou hoje. Use o conjunto de categorias do dia
+  (abaixo); como são 10 guias por dia, cada categoria aparece 2 vezes, com pautas distintas.
 
 ## Pautas
-- 5 artigos por rodada, `kind: "guia"`, uma categoria por artigo, alternando o conjunto por dia:
+- 5 guias por rodada, `kind: "guia"`, uma categoria por artigo, alternando o conjunto por dia:
   dias ímpares = `rotina`, `tecnologia`, `atividades`, `direitos`, `cuidador`; dias pares = `tecnologia`,
   `rotina`, `cuidador`, `direitos`, `atividades`. Nunca `saude`, nunca `indica` (tem rotina própria).
 - Intenção de busca real de quem cuida de uma pessoa idosa em casa no Brasil: "como fazer", "como
