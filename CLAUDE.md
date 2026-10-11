@@ -63,7 +63,7 @@ crescem. Detalhes em `docs/padrao-editorial.md` (seção 0).
 
 ## Rotina editorial diária (mesma estratégia do Portal da IA)
 
-Três rotinas automáticas, cada uma com roteiro em `docs/rotinas/` (leia `comum.md` antes):
+Quatro rotinas automáticas, cada uma com roteiro em `docs/rotinas/` (leia `comum.md` antes):
 
 - **5 artigos por dia** (`docs/rotinas/artigos.md`, 06:00 Brasília): guias informativos das categorias
   `rotina`, `tecnologia`, `atividades`, `direitos` e `cuidador`. Sem link de afiliado.
@@ -74,6 +74,9 @@ Três rotinas automáticas, cada uma com roteiro em `docs/rotinas/` (leia `comum
   compradores ("Consulte na Amazon"). Sem produto viável, a rodada termina em silêncio.
 - **Notícias com fonte** (`docs/rotinas/noticias.md`, a cada 3 horas, no máximo 1 por rodada): fatos
   verificáveis sobre benefícios, golpes, regulação e produtos, com `sourceUrl` conferida.
+- **Manutenção diária** (`docs/rotinas/manutencao.md`): checa e corrige erros (build, lint, links
+  quebrados, imagens, regras de afiliado) e faz a checagem de segurança do site (npm audit, segredos,
+  cabeçalhos, rotas de API). Sem defeito, termina em silêncio.
 
 Todas validam (`check:content`, `lint`, `build`), abrem PR para a branch de produção e mesclam por
 squash sozinhas (autorizado pelo usuário, como no Portal da IA).
