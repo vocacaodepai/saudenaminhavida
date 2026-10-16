@@ -11,8 +11,16 @@ A tag de afiliado Amazon do site fica no `CLAUDE.md`, linha "Tag de afiliado Ama
 como `PENDENTE`, NÃO publique artigos com link de compra: termine em silêncio, sem commit.
 
 ## Limites de verificação (decisão do usuário em 2026-10-06)
-- As páginas de produto da Amazon Brasil NÃO abrem no ambiente (WebFetch retorna erro). Portanto o site
-  NÃO afirma preço, nota de compradores, número de avaliações, nem estoque. Preço: "Consulte na Amazon".
+- As páginas de produto da Amazon Brasil NÃO abrem no ambiente (WebFetch retorna erro). Por isso o site NÃO
+  afirma estoque nem "preço da Amazon". Preço e nota de compradores (decisão do dono em 16/10, como no
+  Portal da AI): buscar na INTERNET INTEIRA (WebSearch sem restringir à Amazon: varejistas como Magazine Luiza,
+  Mercado Livre, KaBuM, Americanas, Casas Bahia, lojas oficiais, sites de comparação). Registrar:
+  * "Faixa de preço": mínimo e máximo em R$ (arredondados) vistos em pelo menos 2 fontes distintas,
+    com a data da consulta. Diga no texto: "faixa consultada na internet em dd/mm/aaaa, não é o preço da
+    Amazon; confira antes de comprar". Nunca invente: se não achar 2 fontes com preço, escreva "Consulte na Amazon".
+  * "Nota de compradores": nota média de 5 e número aproximado de avaliações ("mais de 2 mil") só quando
+    uma fonte encontrada trouxer; cite de onde veio (ex.: "nota em varejistas"). Sem fonte, omita a nota.
+  * Tabela comparativa com colunas "Faixa de preço" e "Nota de compradores"; seção "Variação de preço".
 - A busca na web (WebSearch com `allowed_domains: ["amazon.com.br"]`) devolve URLs reais `/dp/<ASIN>`: use
   isso para confirmar que o ASIN existe e o nome do anúncio. Copie o ASIN exatamente da URL; nunca invente.
 - Só escolha produtos de MARCAS CONHECIDAS com site oficial do fabricante (onde estão ficha técnica, manual,
@@ -51,15 +59,16 @@ como `PENDENTE`, NÃO publique artigos com link de compra: termine em silêncio,
   internos, tom humano e direto. Descreva função, medida, material, segurança de uso e garantia; nunca
   prometa efeito terapêutico.
 - Critérios da nota (0 a 10, média): segurança, facilidade de uso, construção (ficha técnica), garantia e
-  suporte, transparência do fabricante. NÃO há critério de preço nem de avaliações de compradores.
-- `review.price`: `"Consulte na Amazon"` (nunca um valor). `review.url`: link de afiliado. `affiliate: true`.
+  suporte, transparência do fabricante. A faixa de preço e a nota de compradores NÃO entram na nota editorial.
+- `review.price`: `"R$ X a R$ Y (faixa consultada na internet em dd/mm/aaaa)"` quando houver 2 fontes; senão
+  `"Consulte na Amazon"`. `review.url`: link de afiliado. `affiliate: true`.
   `testedDays`: vazio (não houve teste físico).
 - Link de afiliado: `https://www.amazon.com.br/dp/<ASIN real>?tag=<TAG do CLAUDE.md>` com
   `rel="sponsored noopener noreferrer"` e `target="_blank"`. Botão `buy-btn` abaixo da foto de cada produto
-  no comparativo e pelo menos um no meio do review. O texto do botão não cita preço.
+  no comparativo e pelo menos um no meio do review. Texto do botão sempre: "Comprar <Modelo> na Amazon agora ↗" (sem preço).
 - Callout de transparência no topo: Associado da Amazon, comissão sem custo extra, o preço muda (confira na
   Amazon antes de comprar). Diga que a análise é feita a partir da ficha técnica oficial do fabricante, sem
-  teste físico pessoal e sem avaliações de compradores.
+  teste físico pessoal, e que a faixa de preço e a nota de compradores vêm de consulta na internet (não só da Amazon).
 
 ## Se não houver produto viável na rodada
 Termine em silêncio (sem commit) se nenhuma marca atender aos limites acima, e diga isso em uma frase.
