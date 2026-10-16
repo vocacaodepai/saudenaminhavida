@@ -63,13 +63,12 @@ crescem. Detalhes em `docs/padrao-editorial.md` (seção 0).
 
 ## Rotina editorial diária (mesma estratégia do Portal da IA)
 
-Meta: 20 artigos por dia (10 guias + 10 produtos) em quatro rodadas intercaladas (guias, produtos,
-guias, produtos), mais as notícias. Cinco rotinas automáticas, cada uma com roteiro em `docs/rotinas/` (leia `comum.md` antes):
+Meta: pelo menos 10 comparativos + 10 reviews de produto único por dia (estilo do Portal da AI, pedido do dono em 16/10) mais 10 guias, em quatro rodadas intercaladas (guias, produtos, guias, produtos), mais as notícias. Cinco rotinas automáticas, cada uma com roteiro em `docs/rotinas/` (leia `comum.md` antes):
 
 - **10 guias por dia** (`docs/rotinas/artigos.md`, 2 rodadas de 5: 06:07 e 13:07 Brasília): guias informativos das categorias
   `rotina`, `tecnologia`, `atividades`, `direitos` e `cuidador`. Sem link de afiliado.
-- **10 produtos por dia** (`docs/rotinas/indica.md`, 2 rodadas de 5: 09:37 e 17:37 Brasília): sempre `category: "indica"`, 3
-  comparativos + 2 reviews de produto real (ASIN conferido por busca na Amazon Brasil), SÓ de marcas
+- **20 produtos por dia** (`docs/rotinas/indica.md`, 2 rodadas de 10: 09:37 e 17:37 Brasília): sempre `category: "indica"`, 5
+  comparativos (2 ou 3 produtos) + 5 reviews de produto único real (ASIN conferido por busca na Amazon Brasil), SÓ de marcas
   conhecidas com site oficial (ficha técnica e foto oficial do fabricante), link de afiliado (tag
   `saudenaminhavida-20`). A página da Amazon não abre no ambiente: o site não afirma preço nem nota de
   compradores ("Consulte na Amazon"). Sem produto viável, a rodada termina em silêncio.

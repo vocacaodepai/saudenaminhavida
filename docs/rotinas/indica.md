@@ -1,6 +1,6 @@
-# Rotina: produtos, 2 rodadas por dia (09:37 e 17:37 de Brasília), 5 por rodada = 10 por dia, categoria `indica`
+# Rotina: produtos, 2 rodadas por dia (09:37 e 17:37 de Brasília), 10 por rodada = 20 por dia (10 comparativos + 10 reviews), categoria `indica`
 
-Meta do site: 20 artigos por dia (10 guias + 10 produtos). Na 2ª rodada do dia (a partir das 14h), liste os
+Meta do site (pedido do dono, no estilo do Portal da AI): pelo menos 10 comparativos e 10 reviews de produto único por dia. Na 2ª rodada do dia (a partir das 14h), liste os
 produtos com a data de hoje e não repita marca nem categoria de produto da 1ª rodada.
 
 Leia `docs/rotinas/comum.md` primeiro. Reproduz a rotina de produtos do Portal da IA, ajustada ao que é
@@ -20,10 +20,10 @@ como `PENDENTE`, NÃO publique artigos com link de compra: termine em silêncio,
 - Toda característica citada (medidas, material, peso suportado, regulagens, garantia) vem da página do
   FABRICANTE aberta com WebFetch. O que não estiver lá não entra no texto.
 
-## Pautas (5 por rodada)
-- 3 comparativos (`kind: "guia"`): 2 ou 3 produtos reais da MESMA categoria, de marcas com site oficial, com
+## Pautas (10 por rodada: 5 comparativos + 5 reviews)
+- 5 comparativos (`kind: "guia"`): 2 ou 3 produtos reais da MESMA categoria, de marcas com site oficial, com
   tabela comparativa por ficha técnica e uma seção por produto. Varie a categoria a cada rodada.
-- 2 reviews de produto único (`kind: "review"`): um produto só, real, de marca com site oficial, com o
+- 5 reviews de produto único (`kind: "review"`): um produto só, real, de marca com site oficial, com o
   campo `review` completo (nota por critério, ver abaixo).
 - Categorias de produto (escopo de leigo: conforto, segurança doméstica, organização, tecnologia):
   cadeira de banho, banco de chuveiro, barra de apoio, assento sanitário elevado, tapete antiderrapante,
