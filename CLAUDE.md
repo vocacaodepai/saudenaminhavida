@@ -70,8 +70,9 @@ Meta: pelo menos 10 comparativos + 10 reviews de produto único por dia (estilo 
 - **20 produtos por dia** (`docs/rotinas/indica.md`, 2 rodadas de 10: 09:37 e 17:37 Brasília): sempre `category: "indica"`, 5
   comparativos (2 ou 3 produtos) + 5 reviews de produto único real (ASIN conferido por busca na Amazon Brasil), SÓ de marcas
   conhecidas com site oficial (ficha técnica e foto oficial do fabricante), link de afiliado (tag
-  `saudenaminhavida-20`). A página da Amazon não abre no ambiente: o site não afirma preço nem nota de
-  compradores ("Consulte na Amazon"). Sem produto viável, a rodada termina em silêncio.
+  `saudenaminhavida-20`). A página da Amazon não abre no ambiente: o preço e a nota de compradores vêm de busca na
+  internet inteira (não só da Amazon), como "faixa de preço consultada em dd/mm/aaaa", com pelo menos 2 fontes; sem
+  fonte, "Consulte na Amazon" (pedido do dono em 16/10). Sem produto viável, a rodada termina em silêncio.
 - **Notícias do dia com fonte** (`docs/rotinas/noticias.md`, a cada 2 horas, sem teto por rodada): fatos
   do dia verificáveis sobre benefícios, golpes, regulação e produtos, com `sourceUrl` conferida.
 - **Manutenção diária** (`docs/rotinas/manutencao.md`): checa e corrige erros (build, lint, links

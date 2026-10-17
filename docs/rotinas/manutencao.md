@@ -14,7 +14,7 @@ correção, termine em silêncio: sem commit, sem PR, sem mensagem.
 3. Links internos (`/artigos/<slug>`, `/noticias/<slug>`) apontam para slugs que existem.
 4. Imagens: todo `coverImage.src` e `<img src>` local existe em `public/`; sem arquivo órfão novo enorme.
 5. Afiliado: todo link Amazon tem `tag=saudenaminhavida-20` e `rel="sponsored noopener noreferrer"`;
-   nenhum preço, nota de compradores ou alegação de teste pessoal em artigo da categoria `indica`.
+   nenhuma alegação de teste pessoal em artigo da categoria `indica`; preço só como "faixa consultada na internet em <data>", nunca como "preço da Amazon", e nunca sem a data.
 6. Estilo e escopo: sem travessão (—), sem conteúdo clínico fora da categoria `saude`.
 7. Se a Vercel estiver configurada, olhe o último deploy de produção (ferramentas `mcp__Vercel__*`,
    se existirem) e os logs de erro de runtime; trate o que for do código do site.
