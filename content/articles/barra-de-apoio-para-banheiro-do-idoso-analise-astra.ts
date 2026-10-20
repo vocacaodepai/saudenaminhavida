@@ -34,8 +34,8 @@ export const article: Article = {
       url: "https://www.astra-sa.com/barra-de-apoio-reta-em-inox-60cm-com-espessura-de-32mm-astra-ba114-6/p",
     },
     {
-      label: "Astra: linha de barras de apoio para banheiro",
-      url: "https://www.astra-sa.com/acessibilidade/barras-de-apoio",
+      label: "Astra: linha de acessibilidade, inclusive barras de apoio",
+      url: "https://www.astra-sa.com/acessibilidade",
     },
   ],
   content: `
