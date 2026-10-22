@@ -39,7 +39,7 @@ export const article: Article = {
     },
     {
       label: "Britânia: manual de instruções da Pipoqueira Pop Time",
-      url: "http://philco.vteximg.com.br/arquivos/Manual_PIPOQUEIRA_POP_TIME_62551001.pdf",
+      url: "https://philco.vteximg.com.br/arquivos/Manual_PIPOQUEIRA_POP_TIME_62551001.pdf",
     },
   ],
   content: `
