@@ -246,7 +246,7 @@ export default function PoliticaPrivacidadePage() {
 
       <h2 id="links-externos">11. Links para outros sites</h2>
       <p>
-        Artigos e notícias linkam para sites de terceiros, como órgãos públicos, fontes de notícias, sociedades médicas e páginas de produtos, inclusive a Amazon nos links de afiliado. Cada um tem a própria política de privacidade, e esta política não
+        Artigos e notícias linkam para sites de terceiros, como órgãos públicos, fontes de notícias, sociedades médicas e páginas de produtos, inclusive a Amazon e a Shopee nos links de afiliado. Cada um tem a própria política de privacidade, e esta política não
         se aplica a eles.
       </p>
 

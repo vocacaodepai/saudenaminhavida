@@ -63,7 +63,7 @@ crescem. Detalhes em `docs/padrao-editorial.md` (seção 0).
 
 ## Rotina editorial diária (mesma estratégia do Portal da IA)
 
-Meta: pelo menos 10 comparativos + 10 reviews de produto único por dia (estilo do Portal da AI, pedido do dono em 16/10) mais 10 guias, em quatro rodadas intercaladas (guias, produtos, guias, produtos), mais as notícias. Cinco rotinas automáticas, cada uma com roteiro em `docs/rotinas/` (leia `comum.md` antes):
+Meta: pelo menos 10 comparativos + 10 reviews de produto único por dia na Amazon e mais 10 + 10 na Shopee (estilo do Portal da AI, pedido do dono em 16/10) mais 10 guias, em quatro rodadas intercaladas (guias, produtos, guias, produtos), mais as notícias. Seis rotinas automáticas, cada uma com roteiro em `docs/rotinas/` (leia `comum.md` antes):
 
 - **10 guias por dia** (`docs/rotinas/artigos.md`, 2 rodadas de 5: 06:07 e 13:07 Brasília): guias informativos das categorias
   `rotina`, `tecnologia`, `atividades`, `direitos` e `cuidador`. Sem link de afiliado.
@@ -73,6 +73,9 @@ Meta: pelo menos 10 comparativos + 10 reviews de produto único por dia (estilo 
   `saudenaminhavida-20`). A página da Amazon não abre no ambiente: o preço e a nota de compradores vêm de busca na
   internet inteira (não só da Amazon), como "faixa de preço consultada em dd/mm/aaaa", com pelo menos 2 fontes; sem
   fonte, "Consulte na Amazon" (pedido do dono em 16/10). Sem produto viável, a rodada termina em silêncio.
+- **20 produtos da Shopee por dia** (`docs/rotinas/shopee.md`, 2 rodadas de 10: 11:37 e 15:37 Brasília, em adição à Amazon): mesmas regras da rotina de
+  produtos, só Shopee Mall com marca conhecida e ficha oficial, link de afiliado `offerLink` da API de Afiliados da Shopee, preço e nota vindos da própria
+  Shopee. As credenciais (`SHOPEE_APP_ID`, `SHOPEE_SECRET`) ficam FORA do repositório; nunca as comite.
 - **Notícias do dia com fonte** (`docs/rotinas/noticias.md`, a cada 2 horas, sem teto por rodada): fatos
   do dia verificáveis sobre benefícios, golpes, regulação e produtos, com `sourceUrl` conferida.
 - **Manutenção diária** (`docs/rotinas/manutencao.md`): checa e corrige erros (build, lint, links

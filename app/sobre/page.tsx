@@ -85,7 +85,7 @@ export default function SobrePage() {
       <h2 id="como-o-site-se-sustenta">Como o site se sustenta</h2>
       <p>
         O acesso é gratuito. A receita vem (ou virá) de anúncios do Google AdSense e de links de
-        afiliado da Amazon, que aparecem somente na categoria{" "}
+        afiliado da Amazon e da Shopee, que aparecem somente na categoria{" "}
         <Link href="/categoria/indica">Melhores Produtos</Link>, sempre sinalizados. Anúncio e afiliado não
         interferem em pauta, nota ou opinião. Explicamos tudo em{" "}
         <Link href="/publicidade-e-afiliados">publicidade e afiliados</Link>.
