@@ -7,7 +7,7 @@ import { author } from "@/lib/author";
 const PATH = "/publicidade-e-afiliados";
 const TITLE = "Publicidade e afiliados";
 const DESCRIPTION =
-  "Como o Saúde na Minha Vida se sustenta: anúncios do Google AdSense e links de afiliado da Amazon na categoria Melhores Produtos, sempre sinalizados e sem mudar nota nem opinião.";
+  "Como o Saúde na Minha Vida se sustenta: anúncios do Google AdSense e links de afiliado da Amazon e da Shopee na categoria Melhores Produtos, sempre sinalizados e sem mudar nota nem opinião.";
 
 function ExternalLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
@@ -47,6 +47,12 @@ export default function PublicidadeEAfiliadosPage() {
           <Link href="/categoria/indica">Melhores Produtos</Link>, o link para comprar o produto na Amazon é um
           link de afiliado e pode gerar comissão para o site, sem custo adicional para você. Como
           Associado da Amazon, o {site.name} ganha com compras qualificadas.
+        </li>
+        <li>
+          <strong>Programa de Afiliados da Shopee</strong>: nas análises de produto da categoria{" "}
+          <Link href="/categoria/indica">Melhores Produtos</Link>, o link para comprar o produto na Shopee é um
+          link de afiliado e pode gerar comissão para o site, sem custo adicional para você. O preço e a
+          nota de compradores mostrados nesses textos vêm da própria Shopee e mudam com frequência.
         </li>
       </ul>
       <p>Não há conteúdo patrocinado, publieditorial nem &quot;matéria paga&quot;, e não haverá. Como compromisso editorial, também não colocamos anúncio dentro de conteúdo de urgência, como os guias sobre quedas e emergências.</p>
@@ -89,7 +95,7 @@ export default function PublicidadeEAfiliadosPage() {
         </li>
         <li>
           O preço informado é o preço público do produto no momento da escrita da análise, sem
-          inflar para justificar a comissão. Preço muda com frequência na Amazon; o valor exato
+          inflar para justificar a comissão. Preço muda com frequência na Amazon e na Shopee; o valor exato
           sempre aparece atualizado na própria página do produto.
         </li>
         <li>
@@ -97,7 +103,7 @@ export default function PublicidadeEAfiliadosPage() {
         </li>
         <li>
           As imagens usadas nas análises de produto são fotos oficiais divulgadas pelo próprio
-          fabricante em seu site, nunca capturadas da página de venda da Amazon.
+          fabricante em seu site, nunca capturadas da página de venda da Amazon ou da Shopee.
         </li>
       </ul>
 

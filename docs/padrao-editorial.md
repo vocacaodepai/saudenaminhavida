@@ -133,7 +133,7 @@ Tamanho: 1.000 a 1.600 palavras de texto real (sem contar tags). O script exige 
 
 ## 8. Produtos (categoria `indica`, `kind: "review"`)
 
-- Só produtos reais vendidos na Amazon Brasil, com link de afiliado e aviso. Critérios
+- Só produtos reais vendidos na Amazon Brasil ou na Shopee (loja Shopee Mall, regras em `docs/rotinas/shopee.md`), com link de afiliado e aviso. Critérios
   públicos: segurança, facilidade, construção, garantia e suporte, transparência do fabricante.
   Nota de 0 a 10. Preço e nota de compradores só como faixa consultada na internet inteira (2 fontes, com data, dito no texto
   que não é o preço da Amazon); sem fonte, `review.price: "Consulte na Amazon"`. Dizer sempre que o preço muda.

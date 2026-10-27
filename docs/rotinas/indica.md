@@ -3,6 +3,8 @@
 Meta do site (pedido do dono, no estilo do Portal da AI): pelo menos 10 comparativos e 10 reviews de produto único por dia. Na 2ª rodada do dia (a partir das 14h), liste os
 produtos com a data de hoje e não repita marca nem categoria de produto da 1ª rodada.
 
+A mesma meta existe para a Shopee em `docs/rotinas/shopee.md` (rodadas próprias, em adição a esta).
+
 Leia `docs/rotinas/comum.md` primeiro. Reproduz a rotina de produtos do Portal da IA, ajustada ao que é
 verificável neste ambiente (ver "Limites de verificação").
 

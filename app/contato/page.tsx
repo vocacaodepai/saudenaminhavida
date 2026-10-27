@@ -144,7 +144,7 @@ export default function ContatoPage() {
         <li>
           <strong>Emergências</strong>: não escreva para nós. Ligue para o SAMU 192 imediatamente.
         </li>
-        <li>Suporte de produtos, pedidos ou entregas da Amazon e de outras lojas: cada uma tem o seu atendimento.</li>
+        <li>Suporte de produtos, pedidos ou entregas da Amazon, da Shopee e de outras lojas: cada uma tem o seu atendimento.</li>
       </ul>
 
       <h2 id="antes-de-escrever">Antes de escrever</h2>
