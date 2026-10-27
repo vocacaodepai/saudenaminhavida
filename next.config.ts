@@ -83,6 +83,25 @@ const nextConfig: NextConfig = {
               source: "/ads.txt",
               headers: [{ key: "Content-Type", value: "text/plain; charset=utf-8" }],
             },
+            // As imagens de compartilhamento (Open Graph) e o feed RSS são recursos, não páginas:
+            // o Google os rastreava e listava como "Rastreada, mas não indexada". Com noindex
+            // saem dessa lista; redes sociais e leitores de RSS continuam buscando normalmente.
+            {
+              source: "/:path*/opengraph-image",
+              headers: [{ key: "X-Robots-Tag", value: "noindex" }],
+            },
+            {
+              source: "/feed.xml",
+              headers: [{ key: "X-Robots-Tag", value: "noindex" }],
+            },
+          ];
+        },
+        // URLs do site antigo (domínio reaproveitado) que ainda recebem rastreamento: as que têm
+        // equivalente direto vão para ele; as demais continuam 404, que é a resposta certa.
+        async redirects() {
+          return [
+            { source: "/sobrenossaude", destination: "/sobre", permanent: true },
+            { source: "/blogsaude", destination: "/artigos", permanent: true },
           ];
         },
       }),

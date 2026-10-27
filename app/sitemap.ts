@@ -114,7 +114,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: articleModified(a),
     changeFrequency: "weekly",
     priority: 0.8,
-    images: [absoluteUrl(`/artigos/${a.slug}/opengraph-image`)],
   }));
 
   const noticiaPages: Entry[] = news.map((n) => ({
