@@ -30,8 +30,8 @@ export const article: Article = {
   ],
   sources: [
     {
-      label: "gov.br/mds: Proteção e Atendimento Integral à Família (PAIF)",
-      url: "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/servicos-e-programas-1/protecao-e-atendimento-integral-a-familia",
+      label: "MDS: Caderno de Orientações do PAIF e do SCFV (2016)",
+      url: "https://www.mds.gov.br/webarquivos/publicacao/assistencia_social/cadernos/Cartilha_PAIF_1605.pdf",
     },
     {
       label: "gov.br/mds: Ministério do Desenvolvimento e Assistência Social",
@@ -102,7 +102,7 @@ export const article: Article = {
 
 <h2>Quando a família não ajuda: outras saídas</h2>
 <p>Nem toda família consegue dividir. Nesses casos, algumas portas existem, sem custo ou com custo reduzido. Veja a <a href="/artigos/rede-de-apoio-do-cuidador-familiar-como-pedir-ajuda-e-onde-buscar">rede de apoio do cuidador familiar</a> para ideias de vizinhos, igreja e grupos locais.</p>
-<p>O CRAS, unidade da assistência social, oferece o Serviço de Proteção e Atendimento Integral à Família (PAIF), voltado a famílias que precisam de apoio e acesso a direitos, conforme a página do <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/servicos-e-programas-1/protecao-e-atendimento-integral-a-familia" rel="noopener noreferrer" target="_blank">Ministério do Desenvolvimento e Assistência Social</a>. Vale ir ao CRAS mais próximo e perguntar o que existe na sua cidade, já que a oferta varia por município. A página inicial do <a href="https://www.gov.br/mds/pt-br" rel="noopener noreferrer" target="_blank">MDS</a> reúne os serviços e programas do SUAS. Também há atividades gratuitas de convivência, como mostra o guia sobre <a href="/artigos/centro-de-convivencia-para-idosos-como-encontrar-o-cras-e-as-atividades-gratuitas">centros de convivência</a>.</p>
+<p>O CRAS, unidade da assistência social, oferece o Serviço de Proteção e Atendimento Integral à Família (PAIF), voltado a famílias que precisam de apoio e acesso a direitos, conforme o caderno de orientações do <a href="https://www.mds.gov.br/webarquivos/publicacao/assistencia_social/cadernos/Cartilha_PAIF_1605.pdf" rel="noopener noreferrer" target="_blank">Ministério do Desenvolvimento e Assistência Social</a>. Vale ir ao CRAS mais próximo e perguntar o que existe na sua cidade, já que a oferta varia por município. A página inicial do <a href="https://www.gov.br/mds/pt-br" rel="noopener noreferrer" target="_blank">MDS</a> reúne os serviços e programas do SUAS. Também há atividades gratuitas de convivência, como mostra o guia sobre <a href="/artigos/centro-de-convivencia-para-idosos-como-encontrar-o-cras-e-as-atividades-gratuitas">centros de convivência</a>.</p>
 <p>Se pagar alguém é possível, mesmo por poucas horas ao mês, vale ver a opção de <a href="/artigos/como-contratar-cuidador-de-idosos-clt-diarista-ou-empresa">contratar um cuidador ou diarista</a> só para o dia de folga.</p>
 
 <h2>Erros comuns ao combinar a folga</h2>

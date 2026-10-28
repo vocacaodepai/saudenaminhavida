@@ -30,8 +30,8 @@ export const article: Article = {
       url: "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm",
     },
     {
-      label: "Ministério do Desenvolvimento e Assistência Social: Proteção e Atendimento Integral à Família (PAIF)",
-      url: "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/servicos-e-programas-1/protecao-e-atendimento-integral-a-familia",
+      label: "MDS: Caderno de Orientações do PAIF e do SCFV (2016)",
+      url: "https://www.mds.gov.br/webarquivos/publicacao/assistencia_social/cadernos/Cartilha_PAIF_1605.pdf",
     },
   ],
   content: `
@@ -103,7 +103,7 @@ export const article: Article = {
 </ul>
 
 <h2>Onde pedir apoio quando a família é pequena</h2>
-<p>Nem toda família tem irmãos para revezar. Quem cuida sozinho pode procurar o Centro de Referência de Assistência Social (CRAS) do bairro. O Ministério do Desenvolvimento e Assistência Social explica que o <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/servicos-e-programas-1/protecao-e-atendimento-integral-a-familia" rel="noopener noreferrer" target="_blank">serviço de proteção e atendimento integral à família (PAIF)</a>, oferecido nos CRAS, apoia famílias com orientação, encaminhamentos e atividades comunitárias. O Ministério dos Direitos Humanos e da Cidadania também reúne <a href="https://www.gov.br/mdh/pt-br/navegue-por-temas/pessoa-idosa" rel="noopener noreferrer" target="_blank">informações sobre os direitos da pessoa idosa</a>. Para atividades gratuitas de convivência, veja o guia sobre <a href="/artigos/centro-de-convivencia-para-idosos-como-encontrar-o-cras-e-as-atividades-gratuitas">centro de convivência para idosos</a>.</p>
+<p>Nem toda família tem irmãos para revezar. Quem cuida sozinho pode procurar o Centro de Referência de Assistência Social (CRAS) do bairro. O Ministério do Desenvolvimento e Assistência Social explica que o <a href="https://www.mds.gov.br/webarquivos/publicacao/assistencia_social/cadernos/Cartilha_PAIF_1605.pdf" rel="noopener noreferrer" target="_blank">serviço de proteção e atendimento integral à família (PAIF)</a>, oferecido nos CRAS, apoia famílias com orientação, encaminhamentos e atividades comunitárias. O Ministério dos Direitos Humanos e da Cidadania também reúne <a href="https://www.gov.br/mdh/pt-br/navegue-por-temas/pessoa-idosa" rel="noopener noreferrer" target="_blank">informações sobre os direitos da pessoa idosa</a>. Para atividades gratuitas de convivência, veja o guia sobre <a href="/artigos/centro-de-convivencia-para-idosos-como-encontrar-o-cras-e-as-atividades-gratuitas">centro de convivência para idosos</a>.</p>
 
 <h2>Comece pelo quadro deste fim de semana</h2>
 <p>Pegue uma folha, desenhe a tabela acima e preencha com a pessoa idosa ao seu lado, ainda hoje. Defina as âncoras, escolha o almoço grande, escreva a cobertura e deixe o plano B no rodapé. No próximo fim de semana, ajuste o que não funcionou. Em poucas semanas, sábado e domingo deixam de ser um problema e voltam a ser dias de convivência. Para quando o fim de semana vira feriado prolongado, o guia de <a href="/artigos/ferias-e-feriados-com-idoso-em-casa-como-organizar-o-revezamento-da-familia">férias e feriados com idoso em casa</a> continua de onde este termina.</p>

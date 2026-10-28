@@ -23,7 +23,7 @@ export const article: Article = {
   sources: [
     {
       label: "gov.br/mds: Convivência e Fortalecimento de Vínculos",
-      url: "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/servicos-e-programas-1/convivencia-e-fortalecimento-de-vinculos",
+      url: "https://www.gov.br/mds/pt-br/acoes-e-programas/suas/servicos-e-programas/convivencia-e-fortalecimento-de-vinculos",
     },
     {
       label: "Funarte: Fundação Nacional de Artes",
@@ -84,7 +84,7 @@ export const article: Article = {
 <p>Respeitar o ambiente evita atrito e mantém a atividade sustentável. Se a pessoa idosa tem sensibilidade a barulho, reduza a quantidade de instrumentos tocando ao mesmo tempo.</p>
 
 <h2>Onde encontrar aulas e oficinas gratuitas?</h2>
-<p>Se a pessoa gostar e quiser aprender mais, procure oficinas perto de casa. O Serviço de Convivência e Fortalecimento de Vínculos, oferecido em CRAS e centros de convivência, inclui um grupo específico para pessoas idosas, com atividades artísticas, culturais e de lazer, segundo a página do <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/servicos-e-programas-1/convivencia-e-fortalecimento-de-vinculos" rel="noopener noreferrer" target="_blank">Ministério do Desenvolvimento e Assistência Social</a>. Para saber como achar o CRAS do seu bairro e perguntar se há oficina de música, leia o guia do <a href="/artigos/centro-de-convivencia-para-idosos-como-encontrar-o-cras-e-as-atividades-gratuitas">centro de convivência para idosos</a>.</p>
+<p>Se a pessoa gostar e quiser aprender mais, procure oficinas perto de casa. O Serviço de Convivência e Fortalecimento de Vínculos, oferecido em CRAS e centros de convivência, inclui um grupo específico para pessoas idosas, com atividades artísticas, culturais e de lazer, segundo a página do <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/suas/servicos-e-programas/convivencia-e-fortalecimento-de-vinculos" rel="noopener noreferrer" target="_blank">Ministério do Desenvolvimento e Assistência Social</a>. Para saber como achar o CRAS do seu bairro e perguntar se há oficina de música, leia o guia do <a href="/artigos/centro-de-convivencia-para-idosos-como-encontrar-o-cras-e-as-atividades-gratuitas">centro de convivência para idosos</a>.</p>
 <p>O site da <a href="https://www.gov.br/funarte/pt-br" rel="noopener noreferrer" target="_blank">Funarte</a>, a fundação federal de artes, reúne editais e informações sobre espaços culturais. Vale consultar de vez em quando, mas a oferta varia por cidade e por época, então confirme sempre a programação diretamente com cada serviço. Outra opção é a oficina de uma <a href="/artigos/universidade-aberta-para-idosos-como-encontrar-cursos-e-oficinas-gratuitas">universidade aberta para idosos</a>.</p>
 
 <h2>Erros comuns ao tocar com idosos</h2>
