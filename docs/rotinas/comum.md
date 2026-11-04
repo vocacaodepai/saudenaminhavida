@@ -1,6 +1,6 @@
 # Regras comuns das rotinas automáticas (leia antes de qualquer rotina)
 
-Repositório: `vocacaodepai/saudenaminhavida`. Branch de produção: `claude/saude-na-minha-vida-blog`
+Repositório: `vocacaodepai/saudenaminhavida`. Branch de produção: `main`
 (deploy na Vercel quando configurada). Sem perguntar nada ao usuário, siga sozinho até o fim.
 
 - **Ambiente isolado:** faça todo o trabalho num clone próprio em `/tmp/<rotina>-$(date +%s)` (clone
