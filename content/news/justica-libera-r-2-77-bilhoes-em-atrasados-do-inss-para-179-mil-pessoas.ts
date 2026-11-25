@@ -2,7 +2,7 @@ import type { NewsItem } from "@/lib/types";
 
 export const item: NewsItem = {
   slug: "justica-libera-r-2-77-bilhoes-em-atrasados-do-inss-para-179-mil-pessoas",
-  title: "Justiça libera R$ 2,77 bilhões em atrasados do INSS para 179 mil pessoas",
+  title: "Justiça libera R$ 2,77 bi em atrasados do INSS para 179 mil pessoas",
   summary:
     "A Justiça liberou R$ 2,77 bilhões em atrasados do INSS para 179 mil pessoas que ganharam ações. Veja quem entra no lote e como a família consulta o processo.",
   author: "Equipe Saúde na Minha Vida",

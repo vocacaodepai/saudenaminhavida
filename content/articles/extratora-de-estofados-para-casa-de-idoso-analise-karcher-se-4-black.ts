@@ -2,12 +2,12 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "extratora-de-estofados-para-casa-de-idoso-analise-karcher-se-4-black",
-  title: "Extratora de estofados para casa de idoso: análise da Kärcher SE 4 Black",
+  title: "Extratora de estofados para casa de idoso: análise Kärcher SE 4 Black",
   seoTitle: "Extratora de estofados: análise Kärcher SE 4 Black 1600 W",
   excerpt:
-    "Extratora de estofados para casa de idoso: veja o que a ficha oficial da Kärcher informa sobre a SE 4 Black, de 1600 W, com 6 kg sem acessórios, cabo de 5 m, mangueira de 1,7 m e bocais para sofá, piso e cantos.",
+    "Extratora de estofados para casa de idoso: veja o que a ficha oficial informa sobre a Kärcher SE 4 Black, de 1600 W, com 6 kg e cabo de 5 m.",
   metaDescription:
-    "Extratora de estofados para casa de idoso: veja o que a ficha oficial da Kärcher informa sobre a SE 4 Black, de 1600 W, com 6 kg, cabo de 5 m e bocais inclusos.",
+    "Extratora de estofados para casa de idoso: veja o que a ficha oficial informa sobre a Kärcher SE 4 Black, de 1600 W, com 6 kg e cabo de 5 m.",
   category: "indica",
   date: "2026-11-19",
   readTime: 8,

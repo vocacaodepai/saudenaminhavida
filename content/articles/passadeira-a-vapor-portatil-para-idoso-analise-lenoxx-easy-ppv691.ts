@@ -5,9 +5,9 @@ export const article: Article = {
   title: "Passadeira a vapor portátil para idoso: análise da Lenoxx Easy PPV691",
   seoTitle: "Passadeira a vapor portátil para idoso: análise Lenoxx Easy PPV691 800 W",
   excerpt:
-    "Passadeira a vapor portátil para idoso: veja o que a ficha oficial da Lenoxx informa sobre a Easy PPV691, de 800 W, com reservatório de 200 ml, 2 níveis de vapor, escova e garantia de 12 meses.",
+    "Passadeira a vapor portátil para idoso: veja o que a ficha oficial informa sobre a Lenoxx Easy PPV691, de 800 W, com 200 ml e garantia de 12 meses.",
   metaDescription:
-    "Passadeira a vapor portátil para idoso: veja o que a ficha oficial da Lenoxx informa sobre a Easy PPV691, de 800 W, com reservatório de 200 ml, 2 níveis de vapor, escova e garantia de 12 meses.",
+    "Passadeira a vapor portátil para idoso: veja o que a ficha oficial informa sobre a Lenoxx Easy PPV691, de 800 W, com 200 ml e garantia de 12 meses.",
   category: "indica",
   date: "2026-11-19",
   readTime: 8,

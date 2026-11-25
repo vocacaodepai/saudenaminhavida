@@ -109,7 +109,7 @@ export const article: Article = {
 <li><strong>Soft 6 cores (07316):</strong> de cerca de R$ 3 a R$ 4 por caixa, em Armando Nacionais, Jambo, Lojas Grafitte e Casa da Arte.</li>
 <li><strong>Soft Baby Colors (07370):</strong> de cerca de R$ 3 a R$ 4 por caixa, em Casa da Arte, A Casa das Artes, Papelaria Pinheiro e Irmãos Haluli.</li>
 </ul>
-<p>Os anúncios da Amazon vistos na consulta apareceram com valores mais altos, de cerca de R$ 5 a R$ 10 por caixa conforme o vendedor, fora o frete. As notas de compradores da tabela vêm desses anúncios e servem só de referência: não entram na nossa avaliação, que parte da ficha oficial.</p>
+<p>As notas de compradores da tabela vêm de anúncios da Amazon vistos em busca e servem só de referência: não entram na nossa avaliação, que parte da ficha oficial.</p>
 
 <h2>Qual escolher por situação</h2>
 <ul>

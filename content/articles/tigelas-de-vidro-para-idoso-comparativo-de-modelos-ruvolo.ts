@@ -62,7 +62,7 @@ export const article: Article = {
 <tr><td>Peso da peça</td><td>Não informa</td><td>Não informa</td></tr>
 <tr><td>Lavagem recomendada</td><td>À mão, esponja macia</td><td>À mão, esponja macia</td></tr>
 <tr><td>Garantia</td><td>Não informa</td><td>Não informa</td></tr>
-<tr><td>Faixa de preço (consultada em 20/11/2026)</td><td>R$ 79 a R$ 117</td><td>R$ 45 a R$ 66</td></tr>
+<tr><td>Faixa de preço (consultada em 20/11/2026)</td><td>R$ 110 a R$ 117</td><td>Consulte na Amazon</td></tr>
 <tr><td>Nota de compradores</td><td>4,6 de 5 (cerca de 556 avaliações)</td><td>4,7 de 5 (cerca de 275 avaliações)</td></tr>
 </tbody>
 </table>
@@ -105,10 +105,10 @@ export const article: Article = {
 </ul>
 
 <h2>Variação de preço</h2>
-<p>As faixas abaixo foram consultadas na internet em 20/11/2026, não são o preço da Amazon, e mudam com frequência. Confira antes de comprar. Usamos pelo menos duas fontes para cada faixa:</p>
+<p>A faixa abaixo foi consultada na internet em 20/11/2026, não é o preço da Amazon, e muda com frequência. Confira antes de comprar. Só publicamos faixa quando há duas fontes de preço:</p>
 <ul>
-<li><strong>Jogo Tropical (3 peças):</strong> de cerca de R$ 79 (anúncio de 3 bowls na Amazon que apareceu na busca) a cerca de R$ 117 (Magazine Luiza), com a loja oficial da Ruvolo em cerca de R$ 110. A nota de 4,6 de 5 (cerca de 556 avaliações) vem do anúncio na Amazon.</li>
-<li><strong>Saladeira Gourmet com pé:</strong> de cerca de R$ 45 (loja oficial da Ruvolo) a cerca de R$ 66 (anúncio na Amazon). A nota de 4,7 de 5 (cerca de 275 avaliações) vem desse anúncio.</li>
+<li><strong>Jogo Tropical (3 peças):</strong> de cerca de R$ 110 (loja oficial da Ruvolo) a cerca de R$ 117 (Magazine Luiza). A nota de 4,6 de 5 (cerca de 556 avaliações) vem de um anúncio na Amazon que apareceu na busca.</li>
+<li><strong>Saladeira Gourmet com pé:</strong> não fechamos uma faixa com duas fontes de loja, então consulte o valor na Amazon. A nota de 4,7 de 5 (cerca de 275 avaliações) vem de um anúncio na Amazon que apareceu na busca.</li>
 </ul>
 <p>A nota de compradores não entra na nossa análise, que se baseia só na ficha oficial. Cuidado também com anúncios de peças avulsas (só o bowl P ou só o M): são produtos diferentes e têm outro preço.</p>
 

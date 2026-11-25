@@ -5,9 +5,9 @@ export const article: Article = {
   title: "Ferro a seco para idoso: análise do BLACK+DECKER VFA1110XM6",
   seoTitle: "Ferro a seco para idoso: análise BLACK+DECKER VFA1110XM6 220V",
   excerpt:
-    "Ferro a seco para idoso: veja o que a ficha oficial da BLACK+DECKER informa sobre o VFA1110XM6, com base de alumínio polido, 7 níveis de temperatura, 1000 W em 220 V e garantia de 2 anos.",
+    "Ferro a seco para idoso: veja o que a ficha oficial informa sobre o BLACK+DECKER VFA1110XM6, com base de alumínio, 7 temperaturas e garantia de 2 anos.",
   metaDescription:
-    "Ferro a seco para idoso: veja o que a ficha oficial da BLACK+DECKER informa sobre o VFA1110XM6, com base de alumínio polido, 7 níveis de temperatura, 1000 W em 220 V e garantia de 2 anos.",
+    "Ferro a seco para idoso: veja o que a ficha oficial informa sobre o BLACK+DECKER VFA1110XM6, com base de alumínio, 7 temperaturas e garantia de 2 anos.",
   category: "indica",
   date: "2026-11-19",
   readTime: 8,
