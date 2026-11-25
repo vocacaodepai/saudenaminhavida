@@ -5,9 +5,9 @@ export const article: Article = {
   title: "Frigideiras para idoso: análise do jogo Tramontina Caribe 3 peças",
   seoTitle: "Frigideiras para idoso: análise Tramontina Caribe 3 peças Starflon Max",
   excerpt:
-    "Frigideiras para idoso: veja o que a ficha oficial da Tramontina informa sobre o jogo Caribe de 3 peças (16, 20 e 24 cm), com cabo de baquelite, Starflon Max, fogões compatíveis e garantia de 90 dias.",
+    "Frigideiras para idoso: veja o que a ficha oficial informa sobre o jogo Tramontina Caribe de 3 peças, com cabo de baquelite e garantia de 90 dias.",
   metaDescription:
-    "Frigideiras para idoso: veja o que a ficha oficial da Tramontina informa sobre o jogo Caribe de 3 peças (16, 20 e 24 cm), com cabo de baquelite, Starflon Max, fogões compatíveis e garantia de 90 dias.",
+    "Frigideiras para idoso: veja o que a ficha oficial informa sobre o jogo Tramontina Caribe de 3 peças, com cabo de baquelite e garantia de 90 dias.",
   category: "indica",
   date: "2026-11-19",
   readTime: 8,

@@ -2,12 +2,12 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "ar-condicionado-de-janela-para-idoso-analise-hisense-aw-08cwbrvgu02",
-  title: "Ar-condicionado de janela para idoso: análise do Hisense AW-08CWBRVGU02",
+  title: "Ar-condicionado de janela para idoso: análise Hisense AW-08CWBRVGU02",
   seoTitle: "Ar-condicionado de janela para idoso: Hisense AW-08CWBRVGU02",
   excerpt:
-    "Ar-condicionado de janela para idoso: veja o que a ficha oficial da Hisense informa sobre o AW-08CWBRVGU02, de 7.500 BTU/h, 127 V, com Wi-Fi, timer de 24 horas e 27,2 kg.",
+    "Ar-condicionado de janela para idoso: veja o que a ficha oficial informa sobre o Hisense AW-08CWBRVGU02, de 7.500 BTU/h, 127 V, com Wi-Fi e 27,2 kg.",
   metaDescription:
-    "Ar-condicionado de janela para idoso: veja o que a ficha oficial da Hisense informa sobre o AW-08CWBRVGU02, de 7.500 BTU/h, 127 V, com Wi-Fi, timer de 24 horas e 27,2 kg.",
+    "Ar-condicionado de janela para idoso: veja o que a ficha oficial informa sobre o Hisense AW-08CWBRVGU02, de 7.500 BTU/h, 127 V, com Wi-Fi e 27,2 kg.",
   category: "indica",
   date: "2026-11-19",
   readTime: 7,

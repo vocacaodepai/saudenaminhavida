@@ -2,7 +2,7 @@ import type { NewsItem } from "@/lib/types";
 
 export const item: NewsItem = {
   slug: "ex-funcionaria-de-banco-e-presa-no-para-suspeita-de-desviar-r-189-mil-de-clientes-idosos",
-  title: "Funcionária de banco é presa no Pará por desvio de R$ 189 mil de idosos",
+  title: "Funcionária de banco é presa no Pará suspeita de desviar R$ 189 mil",
   summary:
     "A Polícia Civil do Pará prendeu uma funcionária afastada de banco suspeita de desviar R$ 189 mil de dois idosos em Novo Progresso. Veja o que fazer.",
   author: "Equipe Saúde na Minha Vida",

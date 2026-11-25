@@ -2,7 +2,7 @@ import type { NewsItem } from "@/lib/types";
 
 export const item: NewsItem = {
   slug: "advogado-e-apresentador-e-preso-em-belem-por-suspeita-de-estelionato-contra-idosos-do-inss",
-  title: "Advogado e apresentador é preso em Belém por suspeita de golpe em idosos",
+  title: "Advogado e apresentador é preso em Belém suspeito de golpe em idosos",
   summary:
     "Polícia Civil do Pará prende advogado suspeito de cobrar de idosos até R$ 12 mil por processos do INSS sem registro. Veja o caso e como se proteger.",
   author: "Equipe Saúde na Minha Vida",

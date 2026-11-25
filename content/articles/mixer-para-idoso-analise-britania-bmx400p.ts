@@ -5,9 +5,9 @@ export const article: Article = {
   title: "Mixer para idoso: análise do Britânia BMX400P 500W",
   seoTitle: "Mixer para idoso: análise Britânia BMX400P 500W 3 em 1",
   excerpt:
-    "Mixer para idoso: veja o que a ficha oficial da Britânia informa sobre o BMX400P, de 500 W, com lâminas em inox, 2 velocidades mais turbo, copo, processador, batedor e cordão de 1 m.",
+    "Mixer para idoso: veja o que a ficha oficial informa sobre o Britânia BMX400P, de 500 W, com lâminas em inox, 2 velocidades mais turbo e acessórios.",
   metaDescription:
-    "Mixer para idoso: veja o que a ficha oficial da Britânia informa sobre o BMX400P, de 500 W, com lâminas em inox, 2 velocidades mais turbo, copo, processador, batedor e cordão de 1 m.",
+    "Mixer para idoso: veja o que a ficha oficial informa sobre o Britânia BMX400P, de 500 W, com lâminas em inox, 2 velocidades mais turbo e acessórios.",
   category: "indica",
   date: "2026-11-19",
   readTime: 8,
