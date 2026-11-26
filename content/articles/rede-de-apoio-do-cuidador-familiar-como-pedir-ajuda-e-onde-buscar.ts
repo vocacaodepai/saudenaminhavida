@@ -31,7 +31,7 @@ export const article: Article = {
   sources: [
     {
       label: "MDS: Sistema Único de Assistência Social (SUAS)",
-      url: "https://www.gov.br/mds/pt-br/acoes-e-programas/suas",
+      url: "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS",
     },
     {
       label: "MDS: Cidadão, perguntas frequentes sobre assistência social (CRAS)",
@@ -100,7 +100,7 @@ export const article: Article = {
 <p>Ninguém recebeu mais do que uma tarefa. Na quinta, uma amiga da família ficou duas horas com dona Lúcia, e Marta foi ao banco e tomou um café sozinha. Depois de duas semanas, Marta trocou a vizinha de dia, porque terça não funcionava mais para ela. A rede se ajustou, e ninguém ficou sobrecarregado. Esta é uma cena hipotética, mas o método vale para qualquer casa.</p>
 
 <h2>Serviços públicos: CRAS, SUAS e Disque 100</h2>
-<p>Além da rede pessoal, existe a rede pública. Segundo o Ministério do Desenvolvimento e Assistência Social (MDS), o <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/suas" rel="noopener noreferrer" target="_blank">SUAS</a> é o sistema que garante proteção social por meio de serviços, benefícios, programas e projetos, e a assistência social é um direito de quem dela precisar.</p>
+<p>Além da rede pessoal, existe a rede pública. Segundo o Ministério do Desenvolvimento e Assistência Social (MDS), o <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS" rel="noopener noreferrer" target="_blank">SUAS</a> é o sistema que garante proteção social por meio de serviços, benefícios, programas e projetos, e a assistência social é um direito de quem dela precisar.</p>
 <p>O <strong>CRAS</strong> (Centro de Referência de Assistência Social) é a porta de entrada da assistência social. De acordo com o <a href="https://www.mds.gov.br/webarquivos/acesso_informacao/perguntas_frequentes/assistencia_social/Cidadaos.pdf" rel="noopener noreferrer" target="_blank">material do MDS para o cidadão</a>, o atendimento é feito por uma equipe de várias áreas, que pode encaminhar a pessoa para serviços e programas da assistência social e de outras políticas públicas, como saúde, educação e trabalho. O mesmo material cita o Cadastro Único e o pedido do BPC, que passa pelo CRAS. Para entender os direitos da pessoa idosa, veja <a href="/artigos/direitos-do-idoso-bpc-aposentadoria-plano-de-saude">direitos do idoso: BPC, aposentadoria e plano de saúde</a>.</p>
 <p>Como encontrar o CRAS do seu bairro? Pergunte na prefeitura do seu município ou na secretaria de assistência social, porque endereço e horário mudam de cidade para cidade. Ao ir, leve documentos de identificação da pessoa idosa e os seus, e pergunte se há grupos ou atividades de convivência para pessoas idosas na região. Não conte com um serviço sem confirmar: a oferta local varia.</p>
 <div class="callout-box callout-warn"><span class="callout-label">Disque 100</span><p>Se você suspeita que a pessoa idosa sofre maus-tratos, abandono ou outra violação de direitos, ligue 100. Segundo a Agência Gov, o serviço funciona 24 horas por dia, sete dias por semana, a ligação não é cobrada pela operadora e a pessoa não é obrigada a se identificar. O Disque 100 recebe denúncias: não serve para pedir ajuda com o cuidado do dia a dia.</p></div>

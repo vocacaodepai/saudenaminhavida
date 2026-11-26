@@ -31,7 +31,7 @@ export const article: Article = {
     },
     {
       label: "MDS: Serviço de Convivência e Fortalecimento de Vínculos",
-      url: "https://www.gov.br/mds/pt-br/acoes-e-programas/suas/servicos-e-programas/convivencia-e-fortalecimento-de-vinculos",
+      url: "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/servicos-e-programas/convivencia-e-fortalecimento-de-vinculos",
     },
   ],
   content: `
@@ -55,7 +55,7 @@ export const article: Article = {
 <li>Vá à unidade com a pessoa idosa, se possível, e conte a rotina.</li>
 <li>Anote o nome de quem atendeu, a data e o protocolo.</li>
 </ol>
-<p>Se não houver Centro-Dia na sua cidade, procure o CRAS. O <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/suas/servicos-e-programas/convivencia-e-fortalecimento-de-vinculos" rel="noopener noreferrer" target="_blank">serviço de convivência e fortalecimento de vínculos</a> oferece atividades em grupo e pode ser ofertado em Centros de Convivência. Veja como localizar em <a href="/artigos/centro-de-convivencia-para-idosos-como-encontrar-o-cras-e-as-atividades-gratuitas">centro de convivência para idosos</a>.</p>
+<p>Se não houver Centro-Dia na sua cidade, procure o CRAS. O <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/servicos-e-programas/convivencia-e-fortalecimento-de-vinculos" rel="noopener noreferrer" target="_blank">serviço de convivência e fortalecimento de vínculos</a> oferece atividades em grupo e pode ser ofertado em Centros de Convivência. Veja como localizar em <a href="/artigos/centro-de-convivencia-para-idosos-como-encontrar-o-cras-e-as-atividades-gratuitas">centro de convivência para idosos</a>.</p>
 
 <h2>Como o Centro-Dia ajuda quem cuida?</h2>
 <p>O ganho principal é tempo. Com a pessoa idosa acolhida durante o dia, o cuidador pode trabalhar, ir às próprias consultas, resolver papéis ou apenas descansar. Isso reduz a sobrecarga que leva ao esgotamento, tema do guia sobre o <a href="/artigos/burnout-do-cuidador-sinais-e-o-que-fazer">burnout do cuidador</a>.</p>
