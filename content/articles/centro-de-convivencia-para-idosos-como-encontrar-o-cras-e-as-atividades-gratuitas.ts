@@ -31,7 +31,7 @@ export const article: Article = {
   sources: [
     {
       label: "gov.br/mds: Convivência e Fortalecimento de Vínculos",
-      url: "https://www.gov.br/mds/pt-br/acoes-e-programas/suas/servicos-e-programas/convivencia-e-fortalecimento-de-vinculos",
+      url: "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/servicos-e-programas/convivencia-e-fortalecimento-de-vinculos",
     },
     {
       label: "MDS: Caderno de Orientações do PAIF e do SCFV (2016)",
@@ -47,7 +47,7 @@ export const article: Article = {
 <p>Muita família procura uma atividade para o pai ou a mãe que passam o dia em casa, mas não sabe por onde começar. Este guia explica o que é o serviço, como localizar o CRAS e o que costuma acontecer nesses grupos. Sobre vaga e programação, ninguém pode prometer de fora: isso depende de cada município.</p>
 
 <h2>O que é o Serviço de Convivência e Fortalecimento de Vínculos?</h2>
-<p>Segundo a <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/suas/servicos-e-programas/convivencia-e-fortalecimento-de-vinculos" rel="noopener noreferrer" target="_blank">página do Ministério do Desenvolvimento e Assistência Social (MDS)</a>, o SCFV é um serviço da Proteção Social Básica do SUAS. Ele funciona em grupos e reúne atividades artísticas, culturais, de lazer e esportivas, de acordo com a idade dos participantes. O objetivo é fortalecer as relações familiares e comunitárias e promover a troca de experiências.</p>
+<p>Segundo a <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/servicos-e-programas/convivencia-e-fortalecimento-de-vinculos" rel="noopener noreferrer" target="_blank">página do Ministério do Desenvolvimento e Assistência Social (MDS)</a>, o SCFV é um serviço da Proteção Social Básica do SUAS. Ele funciona em grupos e reúne atividades artísticas, culturais, de lazer e esportivas, de acordo com a idade dos participantes. O objetivo é fortalecer as relações familiares e comunitárias e promover a troca de experiências.</p>
 <p>Os grupos são organizados por faixa etária, e uma delas é a das pessoas idosas. A página oficial cita, entre os públicos atendidos, idosos sem amparo da família e da comunidade ou sem acesso a serviços sociais, além de outras pessoas inseridas no Cadastro Único. Ou seja, o serviço tem um público de foco, e a ordem de entrada varia conforme a demanda de cada lugar.</p>
 <p>O serviço pode ser ofertado no CRAS ou nos Centros de Convivência. Por isso, o nome "centro de convivência" pode aparecer na sua cidade como uma unidade própria, como um grupo dentro do CRAS ou como parceria com uma entidade local.</p>
 

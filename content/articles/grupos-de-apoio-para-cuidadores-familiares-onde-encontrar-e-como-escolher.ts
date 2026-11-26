@@ -31,7 +31,7 @@ export const article: Article = {
   sources: [
     {
       label: "MDS: Sistema Único de Assistência Social (SUAS)",
-      url: "https://www.gov.br/mds/pt-br/acoes-e-programas/suas",
+      url: "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS",
     },
     {
       label: "MDS: Cidadão, perguntas frequentes sobre assistência social (CRAS)",
@@ -53,7 +53,7 @@ export const article: Article = {
 <h2>Onde encontrar grupos de apoio perto de você</h2>
 <p>Não existe uma lista nacional única, porque a oferta depende do município e das entidades locais. Por isso, o caminho é perguntar em vários lugares. Comece por estes.</p>
 <ul>
-<li><strong>CRAS e CREAS:</strong> segundo o Ministério do Desenvolvimento e Assistência Social (MDS), o <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/suas" rel="noopener noreferrer" target="_blank">SUAS</a> conta com uma rede de unidades públicas, entre elas o CRAS e o CREAS, que atendem pessoas e famílias em situação de vulnerabilidade social. O <a href="https://www.mds.gov.br/webarquivos/acesso_informacao/perguntas_frequentes/assistencia_social/Cidadaos.pdf" rel="noopener noreferrer" target="_blank">material do MDS para o cidadão</a> explica que o CRAS é a porta de entrada e pode encaminhar a pessoa para serviços e programas. Pergunte lá se há grupo de famílias ou de cuidadores.</li>
+<li><strong>CRAS e CREAS:</strong> segundo o Ministério do Desenvolvimento e Assistência Social (MDS), o <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS" rel="noopener noreferrer" target="_blank">SUAS</a> conta com uma rede de unidades públicas, entre elas o CRAS e o CREAS, que atendem pessoas e famílias em situação de vulnerabilidade social. O <a href="https://www.mds.gov.br/webarquivos/acesso_informacao/perguntas_frequentes/assistencia_social/Cidadaos.pdf" rel="noopener noreferrer" target="_blank">material do MDS para o cidadão</a> explica que o CRAS é a porta de entrada e pode encaminhar a pessoa para serviços e programas. Pergunte lá se há grupo de famílias ou de cuidadores.</li>
 <li><strong>Centros de convivência:</strong> muitos reúnem pessoas idosas e suas famílias em atividades. Veja o guia sobre <a href="/artigos/centro-de-convivencia-para-idosos-como-encontrar-o-cras-e-as-atividades-gratuitas">como encontrar o CRAS e as atividades gratuitas</a> e pergunte se existe roda de conversa para quem cuida.</li>
 <li><strong>Associações e entidades sem fins lucrativos:</strong> associações de familiares, entidades comunitárias, igrejas e grupos de voluntários às vezes mantêm encontros abertos. Peça o contato da coordenação e confirme se o grupo é gratuito.</li>
 <li><strong>Encontros online:</strong> grupos em aplicativos de mensagem ou videochamada servem para quem não consegue sair de casa. Exigem mais cuidado com a privacidade, assunto de uma das seções abaixo.</li>
