@@ -10,6 +10,7 @@ export const article: Article = {
     "Conversor digital para TV antiga: veja o que a ficha e o manual do Aquário DTV-9000 informam sobre ligação, controle, gravação, preço na Shopee e limites.",
   category: "indica",
   date: "2026-11-26",
+  updated: "2026-11-27",
   readTime: 8,
   imageQuery: "television remote living room",
   coverImage: {
@@ -26,7 +27,7 @@ export const article: Article = {
   keyPoints: [
     "O Aquário DTV-9000 liga a TV por HDMI ou pelo cabo AV, traz controle com teclado numérico e grava programas em mídia USB, mas não vem com antena nem com cabo HDMI.",
     "A página oficial informa fonte bivolt, aparelho de 100 x 60 x 21 mm e garantia de 2 anos, e a nota editorial é 6,9 de 10.",
-    "O anúncio analisado é da Lojas Mineiras, no Shopee Mall: R$ 124,89, nota 4,7 de 5 e mais de 30 vendas em 26/11/2026.",
+    "O anúncio analisado é da Lojas Mineiras, no Shopee Mall: R$ 124,89, nota 4,7 de 5 e 30 vendas em 27/11/2026.",
   ],
   sources: [
     {
@@ -66,7 +67,7 @@ export const article: Article = {
       "Gravar exige uma mídia externa comprada à parte.",
       "A página oficial traz dois valores de corrente para a fonte e duas datas diferentes sobre TVs antigas.",
     ],
-    price: "R$ 124,89 (preço anunciado na Shopee em 26/11/2026)",
+    price: "R$ 124,89 (preço anunciado na Shopee em 27/11/2026)",
     bestFor:
       "Quem tem uma TV sem sintonizador digital, ou com o sintonizador com defeito, já conta com antena adequada e quer continuar vendo os canais abertos no mesmo aparelho.",
     url: "https://s.shopee.com.br/5LDmWVhzRt",
@@ -77,7 +78,7 @@ export const article: Article = {
 <div class="callout-box callout-tip"><span class="callout-label">Transparência</span><p>Este artigo tem links de afiliado da Shopee: o site pode ganhar uma comissão pelas compras feitas por eles, sem custo extra para você. O preço e a nota vêm da Shopee na data indicada e mudam, então confira antes de comprar. A análise usa a ficha e o manual oficiais do fabricante e não houve teste físico do produto.</p></div>
 
 <p>Um <strong>conversor digital para TV do idoso</strong> serve para que a televisão antiga, ou com o sintonizador quebrado, volte a mostrar os canais abertos. O Aquário DTV-9000 liga por HDMI ou pelo cabo AV, tem controle com números e grava programas, mas precisa de uma antena digital comprada à parte.</p>
-<p>O anúncio analisado é da loja Lojas Mineiras, que aparece como loja oficial no Shopee Mall e não é a loja da própria Aquário. Na consulta de 26/11/2026, o valor era de R$ 124,89, com nota 4,7 de 5 na Shopee e mais de 30 vendas. São poucos compradores e um anúncio só, então use esses números com cautela.</p>
+<p>O anúncio analisado é da loja Lojas Mineiras, que aparece como loja oficial no Shopee Mall e não é a loja da própria Aquário. Na consulta de 27/11/2026, o valor era de R$ 124,89, com nota 4,7 de 5 na Shopee e 30 vendas. São poucos compradores e um anúncio só, então use esses números com cautela.</p>
 
 <h2>O que o conversor digital para TV resolve e quando ele não ajuda</h2>
 <p>Pense na cena comum: o pai gosta da televisão da sala, a imagem dos canais sumiu e ele não quer trocar de aparelho. Segundo a <a href="https://agenciagov.ebc.com.br/noticias/202607/saiba-como-acessar-os-canais-abertos-e-gratuitos-na-sua-televisao" rel="noopener noreferrer nofollow" target="_blank">orientação publicada pela Agência Gov</a>, a TV aberta digital é gratuita e pede uma TV compatível, ou uma TV antiga com conversor, além de uma antena adequada. A antena para esse sinal opera na faixa UHF e pode ser interna ou externa.</p>
@@ -104,8 +105,8 @@ export const article: Article = {
 <tr><td>Medidas e peso</td><td>100 x 60 x 21 mm e 275 g informados</td></tr>
 <tr><td>Na caixa</td><td>Conversor, controle, cabo AV com plugue P2, fonte, 2 pilhas AAA e manual</td></tr>
 <tr><td>Garantia</td><td>2 anos</td></tr>
-<tr><td>Preço na Shopee (26/11/2026)</td><td>R$ 124,89</td></tr>
-<tr><td>Nota na Shopee</td><td>4,7 de 5, mais de 30 vendas (um anúncio)</td></tr>
+<tr><td>Preço na Shopee (27/11/2026)</td><td>R$ 124,89</td></tr>
+<tr><td>Nota na Shopee</td><td>4,7 de 5, 30 vendas (um anúncio)</td></tr>
 </tbody>
 </table>
 <p>Há uma divergência sobre a fonte. A linha de alimentação cita 5 V e 1500 mA, enquanto a lista do conteúdo da embalagem fala em fonte de 5 V e 2 A. Use a fonte que vier na caixa e, se precisar de reposição, pergunte à Aquário qual é a correta.</p>
@@ -157,7 +158,7 @@ export const article: Article = {
 </ul>
 
 <h2>Preço, suporte e veredito</h2>
-<p>Os R$ 124,89 são o preço anunciado pela Lojas Mineiras na Shopee em 26/11/2026, e frete, cupom e valor podem mudar a qualquer momento. Em época de ofertas, siga o roteiro de <a href="/artigos/compras-online-para-idoso-como-comprar-com-seguranca-e-conferir-a-loja">compras online com segurança</a> e desconfie de link recebido por mensagem, como explica o guia de <a href="/artigos/black-friday-para-o-idoso-como-comprar-online-com-seguranca-e-evitar-golpes">Black Friday para o idoso</a>. Guarde a nota fiscal para acionar a garantia; o manual informa o SAC 0800 44 8000.</p>
+<p>Os R$ 124,89 são o preço anunciado pela Lojas Mineiras na Shopee em 27/11/2026, e frete, cupom e valor podem mudar a qualquer momento. Em época de ofertas, siga o roteiro de <a href="/artigos/compras-online-para-idoso-como-comprar-com-seguranca-e-conferir-a-loja">compras online com segurança</a> e desconfie de link recebido por mensagem, como explica o guia de <a href="/artigos/black-friday-para-o-idoso-como-comprar-online-com-seguranca-e-evitar-golpes">Black Friday para o idoso</a>. Guarde a nota fiscal para acionar a garantia; o manual informa o SAC 0800 44 8000.</p>
 <p>Vale a compra para a casa que quer manter a TV atual, tem antena adequada e alguém para fazer a primeira instalação. Não vale para quem espera aplicativos de internet, para quem já recebe os canais direto na TV ou para quem não se entende com um segundo controle. Nesse último caso, uma TV com sintonizador próprio, como a da análise da <a href="/artigos/smart-tv-para-idoso-analise-aiwa-aws-tv-43-bl">smart TV Aiwa de 43 polegadas</a>, pode ser um caminho, depois de conferir a ficha e o orçamento.</p>
 <div class="buy-btn"><a href="https://s.shopee.com.br/5LDmWVhzRt" rel="sponsored noopener noreferrer" target="_blank">Comprar Aquário DTV-9000 na Shopee agora ↗</a></div>
 <p>Se for instalar para seus pais, reserve uma hora, ensine com calma e deixe o cartão de passos à vista. Voltar a ver o programa preferido sem depender de ninguém é o que importa aqui.</p>
@@ -186,7 +187,7 @@ export const article: Article = {
     {
       question: "Qual é o preço e a garantia do DTV-9000?",
       answer:
-        "Na Shopee, o anúncio da loja Lojas Mineiras estava por R$ 124,89 em 26/11/2026, com nota 4,7 de 5 e mais de 30 vendas, números que mudam. A página oficial da Aquário informa garantia de 2 anos. Guarde a nota fiscal e confirme as condições com o vendedor.",
+        "Na Shopee, o anúncio da loja Lojas Mineiras estava por R$ 124,89 em 27/11/2026, com nota 4,7 de 5 e 30 vendas, números que mudam. A página oficial da Aquário informa garantia de 2 anos. Guarde a nota fiscal e confirme as condições com o vendedor.",
     },
     {
       question: "O que fazer se o conversor não encontrar canais?",
